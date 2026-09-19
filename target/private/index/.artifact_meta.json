@@ -1,0 +1,20 @@
+{
+  "target_dir": "/dbt_project/3040bcf1-e260-4829-9015-4db8f00183cc/target",
+  "fingerprints": {
+    "semantic_manifest.json": {
+      "size": 234,
+      "modified_secs": 1789797972
+    },
+    "manifest.json": {
+      "size": 596355,
+      "modified_secs": 1789797976
+    },
+    "run_results.json": {
+      "size": 2299,
+      "modified_secs": 1789797976
+    }
+  },
+  "write_source": "DirectWrite",
+  "context_dir": null,
+  "context_fingerprints": {}
+}

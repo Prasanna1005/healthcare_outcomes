@@ -1,0 +1,1941 @@
+==================== 2026-09-19T05:52:35.570901Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T05:52:35.571028Z | f1d516bf-5504-4d1f-91fd-741f0ffecc05 ====================
+05:52:35.571053 [info ]: Starting dbt LSP server
+05:52:35.571072 [info ]: Connecting to LSP client on port 51609
+05:52:35.571304 [info ]: Successfully connected to LSP client
+05:52:35.571324 [info ]: Creating LSP service...
+05:52:35.572094 [info ]: Creating LSP server...
+05:52:35.572106 [info ]: Starting LSP server...
+==================== 2026-09-19T05:52:51.430504Z | 1bb12471-e2aa-4810-b238-35e38126ab87 ====================
+05:52:51.430623 [info ]: Started loading project
+05:52:51.430708 [info ]: Finished loading project [  0.00s]
+05:52:51.430768 [error]: [IoError (dbt1001)]: Cannot open file /dbt_project/41891a3b-e0c5-4410-86ca-6924220b1c54/dbt_project.yml: Failed to open file: /dbt_project/41891a3b-e0c5-4410-86ca-6924220b1c54/dbt_project.yml: No such file or directory (os error 2): No such file or directory (os error 2)
+05:52:51.430817 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [313us]
+==================== 2026-09-19T05:57:25.064867Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T05:57:25.064994Z | f5a76073-fdd3-476c-9bd4-822e047134ab ====================
+05:57:25.065016 [info ]: Starting dbt LSP server
+05:57:25.065036 [info ]: Connecting to LSP client on port 45555
+05:57:25.065280 [info ]: Successfully connected to LSP client
+05:57:25.065302 [info ]: Creating LSP service...
+05:57:25.066048 [info ]: Creating LSP server...
+05:57:25.066060 [info ]: Starting LSP server...
+==================== 2026-09-19T05:57:28.408293Z | 6041ad40-cd00-4060-8a3b-dccd402eb17d ====================
+05:57:28.408444 [info ]: Started loading project
+05:57:28.408517 [info ]: Finished loading project [  0.00s]
+05:57:28.408577 [error]: [IoError (dbt1001)]: Cannot open file /dbt_project/41891a3b-e0c5-4410-86ca-6924220b1c54/dbt_project.yml: Failed to open file: /dbt_project/41891a3b-e0c5-4410-86ca-6924220b1c54/dbt_project.yml: No such file or directory (os error 2): No such file or directory (os error 2)
+05:57:28.408628 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [335us]
+==================== 2026-09-19T06:02:14.892670Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T06:02:14.892804Z | a6a037ba-3b47-486e-b12c-10b982d3e512 ====================
+06:02:14.892824 [info ]: Starting dbt LSP server
+06:02:14.892845 [info ]: Connecting to LSP client on port 59139
+06:02:14.893071 [info ]: Successfully connected to LSP client
+06:02:14.893097 [info ]: Creating LSP service...
+06:02:14.893853 [info ]: Creating LSP server...
+06:02:14.893864 [info ]: Starting LSP server...
+==================== 2026-09-19T06:02:18.200459Z | 8dab8303-f5ad-4ba2-aad1-ec00928dd498 ====================
+06:02:18.200569 [info ]: Started loading project
+06:02:18.200645 [info ]: Finished loading project [  0.00s]
+06:02:18.200716 [error]: [IoError (dbt1001)]: Cannot open file /dbt_project/41891a3b-e0c5-4410-86ca-6924220b1c54/dbt_project.yml: Failed to open file: /dbt_project/41891a3b-e0c5-4410-86ca-6924220b1c54/dbt_project.yml: No such file or directory (os error 2): No such file or directory (os error 2)
+06:02:18.200766 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 error [307us]
+06:02:52.841590 [info ]: Loading profiles.yml
+==================== 2026-09-19T06:02:53.985544Z | 4f099303-617b-45da-bdb9-cd9a18632b74 ====================
+06:02:53.985597 [info ]: Started loading project
+06:02:53.985888 [info ]: Loading profiles.yml
+06:02:53.992057 [debug]:    Started loading packages
+06:02:53.992719 [debug]:     Loaded [  0.00s] packages
+06:02:53.993335 [info ]: Finished loading project [  0.01s]
+06:02:53.993612 [info ]: Started parsing
+06:02:54.025591 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+06:02:54.026705 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+06:02:54.027610 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+06:02:54.115680 [info ]: Finished parsing [  0.12s]
+06:02:54.115862 [info ]: Cached model count updated: 2 models (estimate)
+06:02:54.115876 [info ]: Cached model count updated: 2 models (accurate)
+06:02:54.115920 [info ]: Started scheduling
+06:02:54.115976 [info ]: Finished scheduling [  0.00s]
+06:02:54.115988 [debug]: Compilation - 0 nodes selected: {}
+06:02:54.116012 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+06:02:54.116026 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:02:54.116037 [info ]: Started scheduling
+06:02:54.116067 [info ]: Finished scheduling [  0.00s]
+06:02:54.117107 [info ]: Started building task graph
+06:02:54.117136 [info ]: Finished building task graph [  0.00s]
+06:02:54.121269 [info ]: Started scheduling
+06:02:54.121301 [info ]: Finished scheduling [  0.00s]
+06:02:54.121599 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'default' [136ms]
+06:02:54.121661 [info ]: Cached model count updated: 2 models (accurate)
+06:02:54.989702 [debug]: Ignoring unsupported LSP notification
+06:02:56.139678 [debug]: Ignoring unsupported LSP notification
+06:02:56.899676 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T06:02:58.810627Z | d7576e07-4e47-4fa7-aae7-84d257403acc ====================
+06:02:58.810678 [info ]: Started loading project
+06:02:58.810873 [info ]: Loading profiles.yml
+06:02:58.813198 [info ]: Finished loading project [  0.00s]
+06:02:58.834198 [info ]: Cached model count updated: 2 models (estimate)
+06:02:58.834222 [info ]: Cached model count updated: 2 models (accurate)
+06:02:58.834241 [info ]: Started scheduling
+06:02:58.834283 [info ]: Finished scheduling [  0.00s]
+06:02:58.834299 [debug]: Compilation - 2 nodes selected: {"model.my_new_project.my_first_dbt_model", "model.my_new_project.my_second_dbt_model"}
+06:02:58.835572 [info ]: Started building task graph
+06:02:58.835633 [info ]: Finished building task graph [  0.00s]
+06:02:58.836386 [info ]: Started rendering (2 nodes)
+06:02:58.836409 [info ]: Started model dbt_ps.my_second_dbt_model
+06:02:58.836422 [debug]: Started rendering model dbt_ps.my_second_dbt_model
+06:02:58.836448 [info ]: Started model dbt_ps.my_first_dbt_model
+06:02:58.836457 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:02:58.837244 [debug]: Compiled SQL for node model.my_new_project.my_first_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_first_dbt_model.sql
+06:02:58.837273 [debug]: Compiled SQL for node model.my_new_project.my_second_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_second_dbt_model.sql
+06:02:58.837345 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:02:58.837390 [info ]: Started analyzing (2 nodes)
+06:02:58.837401 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:02:58.837426 [debug]: Finished rendering [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:02:58.837435 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:02:58.837441 [debug]: Started analyzing model dbt_ps.my_second_dbt_model
+06:02:58.843719 [debug]: Finished analyzing [  0.01s] model dbt_ps.my_first_dbt_model [success]
+06:02:58.843739 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [2 of 2 in 0.01s]
+06:02:58.843883 [debug]: Finished analyzing [  0.01s] model dbt_ps.my_second_dbt_model [success]
+06:02:58.843903 [info ]: Finished analyzing [  0.01s] (2 nodes, 0 skipped, 0 errors)
+06:02:58.843912 [info ]:  Succeeded model dbt_ps.my_second_dbt_model (table) [1 of 2 in 0.01s]
+06:02:58.847628 [info ]: Started scheduling
+06:02:58.847667 [info ]: Finished scheduling [  0.00s]
+06:02:58.847717 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [37ms]
+Processed: 2 models
+Summary: 2 total | 2 success
+06:02:58.847808 [info ]: Cached model count updated: 2 models (accurate)
+06:03:01.219788 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T06:05:14.930612Z | 297ee054-e728-4814-baf9-8f8b8125d8f1 ====================
+06:05:14.930676 [info ]: Started loading project
+06:05:14.930898 [info ]: Loading profiles.yml
+06:05:14.933239 [info ]: Finished loading project [  0.00s]
+06:05:14.956691 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [26ms]
+06:05:14.956760 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:05:19.410522Z | 67dc7343-05c5-428b-94ed-9fabb2bf2eac ====================
+06:05:19.410575 [info ]: Started loading project
+06:05:19.410772 [info ]: Loading profiles.yml
+06:05:19.413039 [info ]: Finished loading project [  0.00s]
+06:05:19.433969 [info ]: Cached model count updated: 2 models (estimate)
+06:05:19.433991 [info ]: Cached model count updated: 2 models (accurate)
+06:05:19.434009 [info ]: Started scheduling
+06:05:19.434055 [info ]: Finished scheduling [  0.00s]
+06:05:19.434070 [debug]: Compilation - 2 nodes selected: {"model.my_new_project.my_first_dbt_model", "model.my_new_project.my_second_dbt_model"}
+06:05:19.435324 [info ]: Started building task graph
+06:05:19.435365 [info ]: Finished building task graph [  0.00s]
+06:05:19.436148 [info ]: Started rendering (2 nodes)
+06:05:19.436170 [info ]: Started model dbt_ps.my_second_dbt_model
+06:05:19.436183 [debug]: Started rendering model dbt_ps.my_second_dbt_model
+06:05:19.436209 [info ]: Started model dbt_ps.my_first_dbt_model
+06:05:19.436217 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:05:19.436480 [debug]: Compiled SQL for node model.my_new_project.my_first_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_first_dbt_model.sql
+06:05:19.436503 [debug]: Compiled SQL for node model.my_new_project.my_second_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_second_dbt_model.sql
+06:05:19.436554 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:05:19.436584 [info ]: Started analyzing (2 nodes)
+06:05:19.436595 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:05:19.436623 [debug]: Finished rendering [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:05:19.436635 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:05:19.436642 [debug]: Started analyzing model dbt_ps.my_second_dbt_model
+06:05:19.436792 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:05:19.436825 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [2 of 2 in 0.00s]
+06:05:19.436869 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:05:19.436884 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:05:19.436891 [info ]:  Succeeded model dbt_ps.my_second_dbt_model (table) [1 of 2 in 0.00s]
+06:05:19.439706 [info ]: Started scheduling
+06:05:19.439736 [info ]: Finished scheduling [  0.00s]
+06:05:19.439769 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [29ms]
+Processed: 2 models
+Summary: 2 total | 2 success
+06:05:19.439823 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:05:28.830727Z | 32a33514-6005-47ef-846a-ddec92956bd4 ====================
+06:05:28.830798 [info ]: Started loading project
+06:05:28.831042 [info ]: Loading profiles.yml
+06:05:28.833249 [info ]: Finished loading project [  0.00s]
+06:05:28.852187 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [21ms]
+06:05:28.852249 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:05:33.021312Z | 458f0a52-7da1-4f3f-a6d9-865e0c7f69e9 ====================
+06:05:33.021369 [info ]: Started loading project
+06:05:33.021581 [info ]: Loading profiles.yml
+06:05:33.024079 [info ]: Finished loading project [  0.00s]
+06:05:33.045481 [info ]: Cached model count updated: 2 models (estimate)
+06:05:33.045511 [info ]: Cached model count updated: 2 models (accurate)
+06:05:33.045532 [info ]: Started scheduling
+06:05:33.045582 [info ]: Finished scheduling [  0.00s]
+06:05:33.045599 [debug]: Compilation - 2 nodes selected: {"model.my_new_project.my_first_dbt_model", "model.my_new_project.my_second_dbt_model"}
+06:05:33.046945 [info ]: Started building task graph
+06:05:33.046988 [info ]: Finished building task graph [  0.00s]
+06:05:33.047777 [info ]: Started rendering (2 nodes)
+06:05:33.047801 [info ]: Started model dbt_ps.my_second_dbt_model
+06:05:33.047814 [debug]: Started rendering model dbt_ps.my_second_dbt_model
+06:05:33.047846 [info ]: Started model dbt_ps.my_first_dbt_model
+06:05:33.047857 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:05:33.048139 [debug]: Compiled SQL for node model.my_new_project.my_first_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_first_dbt_model.sql
+06:05:33.048148 [debug]: Compiled SQL for node model.my_new_project.my_second_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_second_dbt_model.sql
+06:05:33.048224 [debug]: Finished rendering [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:05:33.048259 [info ]: Started analyzing (2 nodes)
+06:05:33.048274 [debug]: Started analyzing model dbt_ps.my_second_dbt_model
+06:05:33.048307 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:05:33.048320 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:05:33.048335 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:05:33.048541 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:05:33.048560 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [2 of 2 in 0.00s]
+06:05:33.048588 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:05:33.048601 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:05:33.048613 [info ]:  Succeeded model dbt_ps.my_second_dbt_model (table) [1 of 2 in 0.00s]
+06:05:33.053037 [info ]: Started scheduling
+06:05:33.053083 [info ]: Finished scheduling [  0.00s]
+06:05:33.053134 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [31ms]
+Processed: 2 models
+Summary: 2 total | 2 success
+06:05:33.053222 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:06:14.280458Z | dafca74e-2a83-44ea-b4f5-86e7b179d83c ====================
+06:06:14.280521 [info ]: Started loading project
+06:06:14.280717 [info ]: Loading profiles.yml
+06:06:14.282577 [info ]: Finished loading project [  0.00s]
+06:06:14.300655 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [20ms]
+06:06:14.300717 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:06:17.460709Z | cc262f41-9891-44b0-84c1-1817c921287a ====================
+06:06:17.460768 [info ]: Started loading project
+06:06:17.460981 [info ]: Loading profiles.yml
+06:06:17.463540 [info ]: Finished loading project [  0.00s]
+06:06:17.479840 [info ]: Cached model count updated: 2 models (estimate)
+06:06:17.479862 [info ]: Cached model count updated: 2 models (accurate)
+06:06:17.479880 [info ]: Started scheduling
+06:06:17.479926 [info ]: Finished scheduling [  0.00s]
+06:06:17.479940 [debug]: Compilation - 2 nodes selected: {"model.my_new_project.my_first_dbt_model", "model.my_new_project.my_second_dbt_model"}
+06:06:17.481077 [info ]: Started building task graph
+06:06:17.481118 [info ]: Finished building task graph [  0.00s]
+06:06:17.481870 [info ]: Started rendering (2 nodes)
+06:06:17.481894 [info ]: Started model dbt_ps.my_second_dbt_model
+06:06:17.481907 [debug]: Started rendering model dbt_ps.my_second_dbt_model
+06:06:17.481933 [info ]: Started model dbt_ps.my_first_dbt_model
+06:06:17.481941 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:06:17.482183 [debug]: Compiled SQL for node model.my_new_project.my_first_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_first_dbt_model.sql
+06:06:17.482199 [debug]: Compiled SQL for node model.my_new_project.my_second_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_second_dbt_model.sql
+06:06:17.482240 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:06:17.482258 [info ]: Started analyzing (2 nodes)
+06:06:17.482266 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:06:17.482283 [debug]: Finished rendering [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:06:17.482293 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:06:17.482300 [debug]: Started analyzing model dbt_ps.my_second_dbt_model
+06:06:17.482453 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:06:17.482473 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [2 of 2 in 0.00s]
+06:06:17.482510 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:06:17.482521 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:06:17.482526 [info ]:  Succeeded model dbt_ps.my_second_dbt_model (table) [1 of 2 in 0.00s]
+06:06:17.485290 [info ]: Started scheduling
+06:06:17.485320 [info ]: Finished scheduling [  0.00s]
+06:06:17.485354 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [24ms]
+Processed: 2 models
+Summary: 2 total | 2 success
+06:06:17.485505 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:06:30.940496Z | 9ccafde9-3c54-4f72-8fee-0261a8981569 ====================
+06:06:30.940555 [info ]: Started loading project
+06:06:30.940772 [info ]: Loading profiles.yml
+06:06:30.943342 [info ]: Finished loading project [  0.00s]
+06:06:30.961756 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [21ms]
+06:06:30.961823 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:06:34.640712Z | e9fd8d8a-b2b7-413c-98a5-1ccf75722bed ====================
+06:06:34.640780 [info ]: Started loading project
+06:06:34.641001 [info ]: Loading profiles.yml
+06:06:34.643618 [info ]: Finished loading project [  0.00s]
+06:06:34.660447 [info ]: Cached model count updated: 2 models (estimate)
+06:06:34.660469 [info ]: Cached model count updated: 2 models (accurate)
+06:06:34.660488 [info ]: Started scheduling
+06:06:34.660531 [info ]: Finished scheduling [  0.00s]
+06:06:34.660546 [debug]: Compilation - 2 nodes selected: {"model.my_new_project.my_first_dbt_model", "model.my_new_project.my_second_dbt_model"}
+06:06:34.661554 [info ]: Started building task graph
+06:06:34.661596 [info ]: Finished building task graph [  0.00s]
+06:06:34.662297 [info ]: Started rendering (2 nodes)
+06:06:34.662319 [info ]: Started model dbt_ps.my_second_dbt_model
+06:06:34.662331 [debug]: Started rendering model dbt_ps.my_second_dbt_model
+06:06:34.662356 [info ]: Started model dbt_ps.my_first_dbt_model
+06:06:34.662363 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:06:34.662610 [debug]: Compiled SQL for node model.my_new_project.my_first_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_first_dbt_model.sql
+06:06:34.662620 [debug]: Compiled SQL for node model.my_new_project.my_second_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_second_dbt_model.sql
+06:06:34.662679 [debug]: Finished rendering [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:06:34.662707 [info ]: Started analyzing (2 nodes)
+06:06:34.662719 [debug]: Started analyzing model dbt_ps.my_second_dbt_model
+06:06:34.662746 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:06:34.662755 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:06:34.662762 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:06:34.662909 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:06:34.662920 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [2 of 2 in 0.00s]
+06:06:34.662972 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:06:34.662994 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:06:34.663004 [info ]:  Succeeded model dbt_ps.my_second_dbt_model (table) [1 of 2 in 0.00s]
+06:06:34.665855 [info ]: Started scheduling
+06:06:34.665886 [info ]: Finished scheduling [  0.00s]
+06:06:34.665920 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [25ms]
+Processed: 2 models
+Summary: 2 total | 2 success
+06:06:34.665975 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:09:51.762628Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T06:09:51.762766Z | d4b08002-8419-4e79-9d75-d0ec728a16d6 ====================
+06:09:51.762789 [info ]: Starting dbt LSP server
+06:09:51.762808 [info ]: Connecting to LSP client on port 57509
+06:09:51.763032 [info ]: Successfully connected to LSP client
+06:09:51.763053 [info ]: Creating LSP service...
+06:09:51.763834 [info ]: Creating LSP server...
+06:09:51.763846 [info ]: Starting LSP server...
+==================== 2026-09-19T06:10:13.938459Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T06:10:13.938580Z | 62bb4fb2-c3fb-46db-9dc3-54602141db8c ====================
+06:10:13.938602 [info ]: Starting dbt LSP server
+06:10:13.938622 [info ]: Connecting to LSP client on port 44737
+06:10:13.938850 [info ]: Successfully connected to LSP client
+06:10:13.938873 [info ]: Creating LSP service...
+06:10:13.939734 [info ]: Creating LSP server...
+06:10:13.939746 [info ]: Starting LSP server...
+==================== 2026-09-19T06:10:15.270489Z | c71c0753-2ec8-40d4-b3ff-2a8e25185d1b ====================
+06:10:15.270599 [info ]: Started loading project
+06:10:15.271213 [info ]: Loading profiles.yml
+06:10:15.277488 [debug]:    Started loading packages
+06:10:15.278207 [debug]:     Loaded [  0.00s] packages
+06:10:15.278886 [info ]: Finished loading project [  0.01s]
+06:10:15.279154 [info ]: Started parsing
+06:10:15.310846 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+06:10:15.311977 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+06:10:15.312721 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+06:10:15.401106 [info ]: Finished parsing [  0.12s]
+06:10:15.401305 [info ]: Cached model count updated: 2 models (estimate)
+06:10:15.401318 [info ]: Cached model count updated: 2 models (accurate)
+06:10:15.401363 [info ]: Started scheduling
+06:10:15.401418 [info ]: Finished scheduling [  0.00s]
+06:10:15.401433 [debug]: Compilation - 0 nodes selected: {}
+06:10:15.401464 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+06:10:15.401480 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:10:15.401494 [info ]: Started scheduling
+06:10:15.401522 [info ]: Finished scheduling [  0.00s]
+06:10:15.402921 [info ]: Started building task graph
+06:10:15.402957 [info ]: Finished building task graph [  0.00s]
+06:10:15.407602 [info ]: Started scheduling
+06:10:15.407631 [info ]: Finished scheduling [  0.00s]
+06:10:15.407722 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'default' [137ms]
+06:10:15.407784 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:10:21.970853Z | 50059385-e0f5-45c1-93e4-211c8c013c99 ====================
+06:10:21.970921 [info ]: Started loading project
+06:10:21.971224 [info ]: Loading profiles.yml
+06:10:21.974323 [info ]: Finished loading project [  0.00s]
+06:10:21.995265 [info ]: Cached model count updated: 2 models (estimate)
+06:10:21.995287 [info ]: Cached model count updated: 2 models (accurate)
+06:10:21.995307 [info ]: Started scheduling
+06:10:21.995347 [info ]: Finished scheduling [  0.00s]
+06:10:21.995363 [debug]: Compilation - 2 nodes selected: {"model.my_new_project.my_first_dbt_model", "model.my_new_project.my_second_dbt_model"}
+06:10:21.996614 [info ]: Started building task graph
+06:10:21.996683 [info ]: Finished building task graph [  0.00s]
+06:10:21.997627 [info ]: Started rendering (2 nodes)
+06:10:21.997650 [info ]: Started model dbt_ps.my_second_dbt_model
+06:10:21.997663 [debug]: Started rendering model dbt_ps.my_second_dbt_model
+06:10:21.997691 [info ]: Started model dbt_ps.my_first_dbt_model
+06:10:21.997699 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:10:21.998456 [debug]: Compiled SQL for node model.my_new_project.my_first_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_first_dbt_model.sql
+06:10:21.998463 [debug]: Compiled SQL for node model.my_new_project.my_second_dbt_model at target/.lsp/compiled/my_new_project/models/example/my_second_dbt_model.sql
+06:10:21.998546 [debug]: Finished rendering [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:10:21.998590 [info ]: Started analyzing (2 nodes)
+06:10:21.998601 [debug]: Started analyzing model dbt_ps.my_second_dbt_model
+06:10:21.998628 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:10:21.998637 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:10:21.998643 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:10:22.004960 [debug]: Finished analyzing [  0.01s] model dbt_ps.my_first_dbt_model [success]
+06:10:22.004978 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [2 of 2 in 0.01s]
+06:10:22.005271 [debug]: Finished analyzing [  0.01s] model dbt_ps.my_second_dbt_model [success]
+06:10:22.005292 [info ]: Finished analyzing [  0.01s] (2 nodes, 0 skipped, 0 errors)
+06:10:22.005300 [info ]:  Succeeded model dbt_ps.my_second_dbt_model (table) [1 of 2 in 0.01s]
+06:10:22.008163 [info ]: Started scheduling
+06:10:22.008199 [info ]: Finished scheduling [  0.00s]
+06:10:22.008245 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [37ms]
+Processed: 2 models
+Summary: 2 total | 2 success
+06:10:22.008315 [info ]: Cached model count updated: 2 models (accurate)
+06:10:26.630617 [info ]: Loading profiles.yml
+06:10:28.199711 [debug]: Ignoring unsupported LSP notification
+06:10:31.369691 [debug]: Ignoring unsupported LSP notification
+06:10:50.669692 [debug]: Ignoring unsupported LSP notification
+06:10:50.939678 [debug]: Ignoring unsupported LSP notification
+06:10:51.589681 [debug]: Ignoring unsupported LSP notification
+06:10:55.219702 [debug]: Ignoring unsupported LSP notification
+06:10:55.219821 [debug]: Ignoring unsupported LSP notification
+06:11:01.799687 [debug]: Ignoring unsupported LSP notification
+06:11:02.389700 [debug]: Ignoring unsupported LSP notification
+06:11:02.939689 [debug]: Ignoring unsupported LSP notification
+06:11:05.909674 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T06:11:10.790570Z | a8015d06-829f-445b-8096-293675ffcbcb ====================
+06:11:10.790615 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully [44us]
+06:11:10.790660 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:11:11.870486Z | 39a34d28-8c38-44bf-98d4-f827cfad6c1f ====================
+06:11:11.870548 [info ]: Started loading project
+06:11:11.870792 [info ]: Loading profiles.yml
+06:11:11.873190 [info ]: Finished loading project [  0.00s]
+==================== 2026-09-19T06:11:11.874278Z | 6f0f6ad0-0de1-42ae-b581-64d5622879a1 ====================
+06:11:11.874320 [info ]: Started loading project
+06:11:11.874486 [info ]: Loading profiles.yml
+06:11:11.879849 [debug]:    Started loading packages
+06:11:11.880489 [debug]:     Loaded [  0.00s] packages
+06:11:11.881066 [info ]: Finished loading project [  0.01s]
+06:11:11.881216 [info ]: Started parsing
+06:11:11.911943 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+06:11:11.912882 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+06:11:11.913378 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+06:11:12.001022 [info ]: Finished parsing [  0.12s]
+06:11:12.001147 [info ]: Cached model count updated: 2 models (estimate)
+06:11:12.001160 [info ]: Cached model count updated: 2 models (accurate)
+06:11:12.001175 [info ]: Started scheduling
+06:11:12.001207 [info ]: Finished scheduling [  0.00s]
+06:11:12.001218 [debug]: Compilation - 0 nodes selected: {}
+06:11:12.001237 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+06:11:12.001346 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:11:12.001374 [info ]: Started scheduling
+06:11:12.001401 [info ]: Finished scheduling [  0.00s]
+06:11:12.002475 [info ]: Started building task graph
+06:11:12.002495 [info ]: Finished building task graph [  0.00s]
+06:11:12.006481 [info ]: Started scheduling
+06:11:12.006510 [info ]: Finished scheduling [  0.00s]
+06:11:12.006590 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'default' [132ms]
+06:11:12.006630 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [136ms]
+06:11:12.007583 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:11:14.780479Z | 4c3336ae-b4b7-4acf-ae32-559f36bf4392 ====================
+06:11:14.780530 [info ]: Started loading project
+06:11:14.780742 [info ]: Loading profiles.yml
+06:11:14.783530 [info ]: Finished loading project [  0.00s]
+06:11:14.804755 [info ]: Cached model count updated: 2 models (estimate)
+06:11:14.804778 [info ]: Cached model count updated: 2 models (accurate)
+06:11:14.804798 [info ]: Started scheduling
+06:11:14.804842 [info ]: Finished scheduling [  0.00s]
+06:11:14.804858 [debug]: Compilation - 2 nodes selected: {"model.healthcare_outcomes.my_first_dbt_model", "model.healthcare_outcomes.my_second_dbt_model"}
+06:11:14.806104 [info ]: Started building task graph
+06:11:14.806144 [info ]: Finished building task graph [  0.00s]
+06:11:14.807034 [info ]: Started rendering (2 nodes)
+06:11:14.807057 [info ]: Started model dbt_ps.my_second_dbt_model
+06:11:14.807069 [debug]: Started rendering model dbt_ps.my_second_dbt_model
+06:11:14.807096 [info ]: Started model dbt_ps.my_first_dbt_model
+06:11:14.807104 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:11:14.807838 [debug]: Compiled SQL for node model.healthcare_outcomes.my_first_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_first_dbt_model.sql
+06:11:14.807867 [debug]: Compiled SQL for node model.healthcare_outcomes.my_second_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_second_dbt_model.sql
+06:11:14.807937 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:11:14.807967 [info ]: Started analyzing (2 nodes)
+06:11:14.807977 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:11:14.808010 [debug]: Finished rendering [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:11:14.808019 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:11:14.808026 [debug]: Started analyzing model dbt_ps.my_second_dbt_model
+06:11:14.808184 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:11:14.808208 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [2 of 2 in 0.00s]
+06:11:14.808235 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:11:14.808247 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:11:14.808260 [info ]:  Succeeded model dbt_ps.my_second_dbt_model (table) [1 of 2 in 0.00s]
+06:11:14.811168 [info ]: Started scheduling
+06:11:14.811209 [info ]: Finished scheduling [  0.00s]
+06:11:14.811260 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [30ms]
+Processed: 2 models
+Summary: 2 total | 2 success
+06:11:14.811334 [info ]: Cached model count updated: 2 models (accurate)
+06:13:40.120578 [info ]: Loading profiles.yml
+06:13:42.319692 [debug]: Ignoring unsupported LSP notification
+06:18:32.689670 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T06:25:24.486287Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T06:25:24.486406Z | 610bdd1d-524b-4fc7-bdf5-3d9225c4be4f ====================
+06:25:24.486428 [info ]: Starting dbt LSP server
+06:25:24.486448 [info ]: Connecting to LSP client on port 56409
+06:25:24.486671 [info ]: Successfully connected to LSP client
+06:25:24.486696 [info ]: Creating LSP service...
+06:25:24.487551 [info ]: Creating LSP server...
+06:25:24.487566 [info ]: Starting LSP server...
+06:25:24.990957 [info ]: Loading profiles.yml
+==================== 2026-09-19T06:25:25.430475Z | 454f20ff-0c5c-47b8-b6f5-fcddb28c0ede ====================
+06:25:25.430536 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully [60us]
+06:25:25.430691 [info ]: Waiting for lease on 'target' directory
+==================== 2026-09-19T06:27:12.120390Z | e527a772-5926-4abf-906f-9bc9d3bb0610 ====================
+06:27:12.120484 [info ]: Started loading project
+06:27:12.120817 [info ]: Loading profiles.yml
+06:27:12.126744 [debug]:    Started loading packages
+06:27:12.127353 [debug]:     Loaded [  0.00s] packages
+06:27:12.127972 [info ]: Finished loading project [  0.01s]
+06:27:12.128225 [info ]: Started parsing
+06:27:12.159886 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+06:27:12.160973 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+06:27:12.161854 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+06:27:12.252630 [info ]: Finished parsing [  0.12s]
+06:27:12.252822 [info ]: Cached model count updated: 2 models (estimate)
+06:27:12.252836 [info ]: Cached model count updated: 2 models (accurate)
+06:27:12.252884 [info ]: Started scheduling
+06:27:12.252940 [info ]: Finished scheduling [  0.00s]
+06:27:12.252955 [debug]: Compilation - 0 nodes selected: {}
+06:27:12.252986 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+06:27:12.253003 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:27:12.253015 [info ]: Started scheduling
+06:27:12.253047 [info ]: Finished scheduling [  0.00s]
+06:27:12.254484 [info ]: Started building task graph
+06:27:12.254519 [info ]: Finished building task graph [  0.00s]
+06:27:12.259071 [info ]: Started scheduling
+06:27:12.259106 [info ]: Finished scheduling [  0.00s]
+06:27:12.259203 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'default' [138ms]
+06:27:12.259263 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:27:16.181120Z | 59b22a2c-6c13-4c1d-9120-021949f1425a ====================
+06:27:16.181193 [info ]: Started loading project
+06:27:16.181410 [info ]: Loading profiles.yml
+06:27:16.183516 [info ]: Finished loading project [  0.00s]
+06:27:16.200824 [info ]: Cached model count updated: 2 models (estimate)
+06:27:16.200848 [info ]: Cached model count updated: 2 models (accurate)
+06:27:16.200866 [info ]: Started scheduling
+06:27:16.200908 [info ]: Finished scheduling [  0.00s]
+06:27:16.200924 [debug]: Compilation - 2 nodes selected: {"model.healthcare_outcomes.my_first_dbt_model", "model.healthcare_outcomes.my_second_dbt_model"}
+06:27:16.202089 [info ]: Started building task graph
+06:27:16.202148 [info ]: Finished building task graph [  0.00s]
+06:27:16.203064 [info ]: Started rendering (2 nodes)
+06:27:16.203088 [info ]: Started model dbt_ps.my_second_dbt_model
+06:27:16.203101 [debug]: Started rendering model dbt_ps.my_second_dbt_model
+06:27:16.203128 [info ]: Started model dbt_ps.my_first_dbt_model
+06:27:16.203135 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:27:16.203919 [debug]: Compiled SQL for node model.healthcare_outcomes.my_second_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_second_dbt_model.sql
+06:27:16.203923 [debug]: Compiled SQL for node model.healthcare_outcomes.my_first_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_first_dbt_model.sql
+06:27:16.204002 [debug]: Finished rendering [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:27:16.204032 [info ]: Started analyzing (2 nodes)
+06:27:16.204043 [debug]: Started analyzing model dbt_ps.my_second_dbt_model
+06:27:16.204059 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:27:16.204069 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:27:16.204077 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:27:16.210011 [debug]: Finished analyzing [  0.01s] model dbt_ps.my_first_dbt_model [success]
+06:27:16.210030 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [2 of 2 in 0.01s]
+06:27:16.210223 [debug]: Finished analyzing [  0.01s] model dbt_ps.my_second_dbt_model [success]
+06:27:16.210244 [info ]: Finished analyzing [  0.01s] (2 nodes, 0 skipped, 0 errors)
+06:27:16.210253 [info ]:  Succeeded model dbt_ps.my_second_dbt_model (table) [1 of 2 in 0.01s]
+06:27:16.212982 [info ]: Started scheduling
+06:27:16.213015 [info ]: Finished scheduling [  0.00s]
+06:27:16.213061 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [31ms]
+Processed: 2 models
+Summary: 2 total | 2 success
+06:27:16.213126 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:31:31.781380Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T06:31:31.781494Z | 5d795f58-8166-4d99-a395-815f379d2bfe ====================
+06:31:31.781515 [info ]: Starting dbt LSP server
+06:31:31.781535 [info ]: Connecting to LSP client on port 34009
+06:31:31.781777 [info ]: Successfully connected to LSP client
+06:31:31.781802 [info ]: Creating LSP service...
+06:31:31.782612 [info ]: Creating LSP server...
+06:31:31.782624 [info ]: Starting LSP server...
+06:31:36.440856 [info ]: Loading profiles.yml
+==================== 2026-09-19T06:31:38.040487Z | 3b4dcc76-ad6a-465c-85ab-d807f79a38bd ====================
+06:31:38.040537 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully [50us]
+==================== 2026-09-19T06:31:38.990670Z | d5768fcc-de16-4244-9eb5-01b0fc423026 ====================
+06:31:38.990717 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully [47us]
+06:31:38.990880 [info ]: Waiting for lease on 'target' directory
+==================== 2026-09-19T06:31:40.770469Z | 65d9ac07-a920-470b-9e4a-eef0f8eae8d1 ====================
+06:31:40.770561 [info ]: Started loading project
+06:31:40.770870 [info ]: Loading profiles.yml
+06:31:40.776886 [debug]:    Started loading packages
+06:31:40.777498 [debug]:     Loaded [  0.00s] packages
+06:31:40.778127 [info ]: Finished loading project [  0.01s]
+06:31:40.778392 [info ]: Started parsing
+06:31:40.809882 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+06:31:40.810928 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+06:31:40.811807 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+06:31:40.900144 [info ]: Finished parsing [  0.12s]
+06:31:40.900323 [info ]: Cached model count updated: 2 models (estimate)
+06:31:40.900336 [info ]: Cached model count updated: 2 models (accurate)
+06:31:40.900371 [info ]: Started scheduling
+06:31:40.900422 [info ]: Finished scheduling [  0.00s]
+06:31:40.900434 [debug]: Compilation - 0 nodes selected: {}
+06:31:40.900465 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+06:31:40.900478 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:31:40.900486 [info ]: Started scheduling
+06:31:40.900511 [info ]: Finished scheduling [  0.00s]
+06:31:40.901856 [info ]: Started building task graph
+06:31:40.901887 [info ]: Finished building task graph [  0.00s]
+06:31:40.906118 [info ]: Started scheduling
+06:31:40.906147 [info ]: Finished scheduling [  0.00s]
+06:31:40.906232 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'default' [135ms]
+06:31:40.906287 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:31:51.071128Z | ad7f82a9-bc7e-411a-bc78-83f7a040fd17 ====================
+06:31:51.071196 [info ]: Started loading project
+06:31:51.071418 [info ]: Loading profiles.yml
+06:31:51.073513 [info ]: Finished loading project [  0.00s]
+06:31:51.090113 [info ]: Cached model count updated: 2 models (estimate)
+06:31:51.090133 [info ]: Cached model count updated: 2 models (accurate)
+06:31:51.090151 [info ]: Started scheduling
+06:31:51.090194 [info ]: Finished scheduling [  0.00s]
+06:31:51.090208 [debug]: Compilation - 2 nodes selected: {"model.healthcare_outcomes.my_first_dbt_model", "model.healthcare_outcomes.my_second_dbt_model"}
+06:31:51.091324 [info ]: Started building task graph
+06:31:51.091402 [info ]: Finished building task graph [  0.00s]
+06:31:51.092355 [info ]: Started rendering (2 nodes)
+06:31:51.092379 [info ]: Started model dbt_ps.my_second_dbt_model
+06:31:51.092393 [debug]: Started rendering model dbt_ps.my_second_dbt_model
+06:31:51.092419 [info ]: Started model dbt_ps.my_first_dbt_model
+06:31:51.092427 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:31:51.093183 [debug]: Compiled SQL for node model.healthcare_outcomes.my_first_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_first_dbt_model.sql
+06:31:51.093187 [debug]: Compiled SQL for node model.healthcare_outcomes.my_second_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_second_dbt_model.sql
+06:31:51.093255 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:31:51.093289 [info ]: Started analyzing (2 nodes)
+06:31:51.093298 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:31:51.093322 [debug]: Finished rendering [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:31:51.093330 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:31:51.093336 [debug]: Started analyzing model dbt_ps.my_second_dbt_model
+06:31:51.099224 [debug]: Finished analyzing [  0.01s] model dbt_ps.my_first_dbt_model [success]
+06:31:51.099247 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [2 of 2 in 0.01s]
+06:31:51.099520 [debug]: Finished analyzing [  0.01s] model dbt_ps.my_second_dbt_model [success]
+06:31:51.099540 [info ]: Finished analyzing [  0.01s] (2 nodes, 0 skipped, 0 errors)
+06:31:51.099549 [info ]:  Succeeded model dbt_ps.my_second_dbt_model (table) [1 of 2 in 0.01s]
+06:31:51.102690 [info ]: Started scheduling
+06:31:51.102724 [info ]: Finished scheduling [  0.00s]
+06:31:51.102944 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [31ms]
+Processed: 2 models
+Summary: 2 total | 2 success
+06:31:51.103024 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:42:09.306173Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T06:42:09.306298Z | a8cf54f2-120e-4f17-90d8-716da1189e84 ====================
+06:42:09.306320 [info ]: Starting dbt LSP server
+06:42:09.306340 [info ]: Connecting to LSP client on port 52677
+06:42:09.306600 [info ]: Successfully connected to LSP client
+06:42:09.306622 [info ]: Creating LSP service...
+06:42:09.307480 [info ]: Creating LSP server...
+06:42:09.307492 [info ]: Starting LSP server...
+06:42:11.030977 [info ]: Loading profiles.yml
+==================== 2026-09-19T06:42:11.750468Z | 465d1196-236a-4d3e-a7ce-9bdafd23f7fc ====================
+06:42:11.750518 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully [50us]
+==================== 2026-09-19T06:42:12.570420Z | 894559d1-b194-4ba0-9813-a3d3f7ede5d0 ====================
+06:42:12.570492 [info ]: Started loading project
+06:42:12.570843 [info ]: Loading profiles.yml
+06:42:12.576842 [debug]:    Started loading packages
+06:42:12.577462 [debug]:     Loaded [  0.00s] packages
+06:42:12.578075 [info ]: Finished loading project [  0.01s]
+06:42:12.578347 [info ]: Started parsing
+06:42:12.611102 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+06:42:12.612169 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+06:42:12.612888 [debug]: Finished parsing models/example/my_second_dbt_model.sql [  0.00s]
+06:42:12.703514 [info ]: Finished parsing [  0.13s]
+06:42:12.703686 [info ]: Cached model count updated: 2 models (estimate)
+06:42:12.703700 [info ]: Cached model count updated: 2 models (accurate)
+06:42:12.703743 [info ]: Started scheduling
+06:42:12.703795 [info ]: Finished scheduling [  0.00s]
+06:42:12.703805 [debug]: Compilation - 0 nodes selected: {}
+06:42:12.703828 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+06:42:12.703842 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:42:12.703853 [info ]: Started scheduling
+06:42:12.703881 [info ]: Finished scheduling [  0.00s]
+06:42:12.704906 [info ]: Started building task graph
+06:42:12.704937 [info ]: Finished building task graph [  0.00s]
+06:42:12.709159 [info ]: Started scheduling
+06:42:12.709191 [info ]: Finished scheduling [  0.00s]
+06:42:12.709449 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 2 warnings for target 'default' [139ms]
+06:42:12.709512 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:42:17.970513Z | d11b5c42-80f2-4fd2-ab98-0021c425932d ====================
+06:42:17.970591 [info ]: Started loading project
+06:42:17.970822 [info ]: Loading profiles.yml
+06:42:17.973093 [info ]: Finished loading project [  0.00s]
+06:42:17.993969 [info ]: Cached model count updated: 2 models (estimate)
+06:42:17.993990 [info ]: Cached model count updated: 2 models (accurate)
+06:42:17.994008 [info ]: Started scheduling
+06:42:17.994052 [info ]: Finished scheduling [  0.00s]
+06:42:17.994066 [debug]: Compilation - 2 nodes selected: {"model.healthcare_outcomes.my_first_dbt_model", "model.healthcare_outcomes.my_second_dbt_model"}
+06:42:17.995256 [info ]: Started building task graph
+06:42:17.995316 [info ]: Finished building task graph [  0.00s]
+06:42:17.996246 [info ]: Started rendering (2 nodes)
+06:42:17.996269 [info ]: Started model dbt_ps.my_second_dbt_model
+06:42:17.996281 [debug]: Started rendering model dbt_ps.my_second_dbt_model
+06:42:17.996308 [info ]: Started model dbt_ps.my_first_dbt_model
+06:42:17.996316 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:42:17.997040 [debug]: Compiled SQL for node model.healthcare_outcomes.my_second_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_second_dbt_model.sql
+06:42:17.997084 [debug]: Compiled SQL for node model.healthcare_outcomes.my_first_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_first_dbt_model.sql
+06:42:17.997146 [debug]: Finished rendering [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:42:17.997203 [info ]: Started analyzing (2 nodes)
+06:42:17.997218 [debug]: Started analyzing model dbt_ps.my_second_dbt_model
+06:42:17.997244 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:42:17.997254 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:42:17.997261 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:42:18.003228 [debug]: Finished analyzing [  0.01s] model dbt_ps.my_first_dbt_model [success]
+06:42:18.003249 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [2 of 2 in 0.01s]
+06:42:18.003500 [debug]: Finished analyzing [  0.01s] model dbt_ps.my_second_dbt_model [success]
+06:42:18.003521 [info ]: Finished analyzing [  0.01s] (2 nodes, 0 skipped, 0 errors)
+06:42:18.003531 [info ]:  Succeeded model dbt_ps.my_second_dbt_model (table) [1 of 2 in 0.01s]
+06:42:18.006306 [info ]: Started scheduling
+06:42:18.006343 [info ]: Finished scheduling [  0.00s]
+06:42:18.006391 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [35ms]
+Processed: 2 models
+Summary: 2 total | 2 success
+06:42:18.006469 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:45:46.150539Z | f69ea356-cca1-4aa9-8711-e85c7a6a6184 ====================
+06:45:46.150590 [info ]: Started loading project
+06:45:46.150805 [info ]: Loading profiles.yml
+06:45:46.153179 [info ]: Finished loading project [  0.00s]
+06:45:46.175616 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [25ms]
+06:45:46.175674 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:45:48.990512Z | 55f2d377-63b0-48a5-bc16-a3189591bb6b ====================
+06:45:48.990564 [info ]: Started loading project
+06:45:48.990766 [info ]: Loading profiles.yml
+06:45:48.993073 [info ]: Finished loading project [  0.00s]
+06:45:49.013877 [info ]: Cached model count updated: 2 models (estimate)
+06:45:49.013897 [info ]: Cached model count updated: 2 models (accurate)
+06:45:49.013915 [info ]: Started scheduling
+06:45:49.013960 [info ]: Finished scheduling [  0.00s]
+06:45:49.013974 [debug]: Compilation - 2 nodes selected: {"model.healthcare_outcomes.my_first_dbt_model", "model.healthcare_outcomes.my_second_dbt_model"}
+06:45:49.015242 [info ]: Started building task graph
+06:45:49.015285 [info ]: Finished building task graph [  0.00s]
+06:45:49.016189 [info ]: Started rendering (2 nodes)
+06:45:49.016213 [info ]: Started model dbt_ps.my_second_dbt_model
+06:45:49.016225 [debug]: Started rendering model dbt_ps.my_second_dbt_model
+06:45:49.016252 [info ]: Started model dbt_ps.my_first_dbt_model
+06:45:49.016260 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:45:49.016567 [debug]: Compiled SQL for node model.healthcare_outcomes.my_first_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_first_dbt_model.sql
+06:45:49.016580 [debug]: Compiled SQL for node model.healthcare_outcomes.my_second_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_second_dbt_model.sql
+06:45:49.016631 [debug]: Finished rendering [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:45:49.016651 [info ]: Started analyzing (2 nodes)
+06:45:49.016658 [debug]: Started analyzing model dbt_ps.my_second_dbt_model
+06:45:49.016672 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:45:49.016680 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:45:49.016692 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:45:49.016835 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:45:49.016847 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [2 of 2 in 0.00s]
+06:45:49.016883 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_second_dbt_model [success]
+06:45:49.016902 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+06:45:49.016912 [info ]:  Succeeded model dbt_ps.my_second_dbt_model (table) [1 of 2 in 0.00s]
+06:45:49.019462 [info ]: Started scheduling
+06:45:49.019490 [info ]: Finished scheduling [  0.00s]
+06:45:49.019524 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [29ms]
+Processed: 2 models
+Summary: 2 total | 2 success
+06:45:49.019605 [info ]: Cached model count updated: 2 models (accurate)
+06:46:31.040565 [info ]: Loading profiles.yml
+==================== 2026-09-19T06:46:31.500605Z | b790ebad-ffb0-4f05-94c6-a2b74e609cdd ====================
+06:46:31.500664 [info ]: Started loading project
+06:46:31.500887 [info ]: Loading profiles.yml
+06:46:31.502812 [info ]: Finished loading project [  0.00s]
+06:46:31.521146 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [20ms]
+06:46:31.521213 [info ]: Cached model count updated: 2 models (accurate)
+==================== 2026-09-19T06:46:36.160843Z | 5f790380-dbcd-4bc2-9d71-8840c4d9ffc3 ====================
+06:46:36.160903 [info ]: Started loading project
+06:46:36.161119 [info ]: Loading profiles.yml
+06:46:36.163027 [info ]: Finished loading project [  0.00s]
+==================== 2026-09-19T06:46:36.164155Z | 34fb82da-e506-4267-a808-d11428fc459b ====================
+06:46:36.164191 [info ]: Started loading project
+06:46:36.164338 [info ]: Loading profiles.yml
+06:46:36.169419 [debug]:    Started loading packages
+06:46:36.169968 [debug]:     Loaded [  0.00s] packages
+06:46:36.170497 [info ]: Finished loading project [  0.01s]
+06:46:36.170636 [info ]: Started parsing
+06:46:36.196377 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+06:46:36.197251 [debug]: Finished parsing models/example/my_first_dbt_model.sql [  0.00s]
+06:46:36.197955 [warn ]: [NoNodeForYamlKey (dbt1089)]: Unused schema.yml entry for model 'my_second_dbt_model'
+  --> models/example/schema.yml
+06:46:36.286945 [info ]: Finished parsing [  0.12s]
+06:46:36.287080 [info ]: Cached model count updated: 1 models (estimate)
+06:46:36.287093 [info ]: Cached model count updated: 1 models (accurate)
+06:46:36.287109 [info ]: Started scheduling
+06:46:36.287142 [info ]: Finished scheduling [  0.00s]
+06:46:36.287154 [debug]: Compilation - 1 nodes selected: {"model.healthcare_outcomes.my_first_dbt_model"}
+06:46:36.287173 [info ]: Started scheduling
+06:46:36.287184 [info ]: Finished scheduling [  0.00s]
+06:46:36.288106 [info ]: Started building task graph
+06:46:36.288140 [info ]: Finished building task graph [  0.00s]
+06:46:36.288997 [info ]: Started rendering (1 nodes)
+06:46:36.289021 [info ]: Started model dbt_ps.my_first_dbt_model
+06:46:36.289033 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:46:36.289728 [debug]: Compiled SQL for node model.healthcare_outcomes.my_first_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_first_dbt_model.sql
+06:46:36.289831 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:46:36.289846 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+06:46:36.289863 [info ]: Started analyzing (1 nodes)
+06:46:36.289872 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:46:36.290058 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:46:36.290070 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+06:46:36.290075 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [1 of 1 in 0.00s]
+06:46:36.293422 [info ]: Started scheduling
+06:46:36.293452 [info ]: Finished scheduling [  0.00s]
+06:46:36.293538 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [129ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+06:46:36.293583 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [132ms]
+06:46:36.294769 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-09-19T06:46:47.971041Z | 441766c1-0362-4f87-a943-e1d803104389 ====================
+06:46:47.971106 [info ]: Started loading project
+06:46:47.971308 [info ]: Loading profiles.yml
+06:46:47.973570 [info ]: Finished loading project [  0.00s]
+06:46:47.996399 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [25ms]
+06:46:47.996478 [info ]: Cached model count updated: 1 models (accurate)
+==================== 2026-09-19T06:46:53.790475Z | 12db05ba-d3ad-4a7f-89a5-6326247cee23 ====================
+06:46:53.790542 [info ]: Started loading project
+06:46:53.790760 [info ]: Loading profiles.yml
+06:46:53.792669 [info ]: Finished loading project [  0.00s]
+06:46:53.808203 [info ]: Cached model count updated: 1 models (estimate)
+06:46:53.808225 [info ]: Cached model count updated: 1 models (accurate)
+06:46:53.808245 [info ]: Started scheduling
+06:46:53.808294 [info ]: Finished scheduling [  0.00s]
+06:46:53.808311 [debug]: Compilation - 1 nodes selected: {"model.healthcare_outcomes.my_first_dbt_model"}
+06:46:53.809523 [info ]: Started building task graph
+06:46:53.809563 [info ]: Finished building task graph [  0.00s]
+06:46:53.810501 [info ]: Started rendering (1 nodes)
+06:46:53.810524 [info ]: Started model dbt_ps.my_first_dbt_model
+06:46:53.810533 [debug]: Started rendering model dbt_ps.my_first_dbt_model
+06:46:53.810794 [debug]: Compiled SQL for node model.healthcare_outcomes.my_first_dbt_model at target/.lsp/compiled/healthcare_outcomes/models/example/my_first_dbt_model.sql
+06:46:53.810854 [debug]: Finished rendering [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:46:53.810866 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+06:46:53.810880 [info ]: Started analyzing (1 nodes)
+06:46:53.810887 [debug]: Started analyzing model dbt_ps.my_first_dbt_model
+06:46:53.811048 [debug]: Finished analyzing [  0.00s] model dbt_ps.my_first_dbt_model [success]
+06:46:53.811058 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+06:46:53.811062 [info ]:  Succeeded model dbt_ps.my_first_dbt_model (table) [1 of 1 in 0.00s]
+06:46:53.813827 [info ]: Started scheduling
+06:46:53.813855 [info ]: Finished scheduling [  0.00s]
+06:46:53.813964 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [23ms]
+Processed: 1 model
+Summary: 1 total | 1 success
+06:46:53.814042 [info ]: Cached model count updated: 1 models (accurate)
+06:46:57.030646 [info ]: Loading profiles.yml
+06:47:24.459816 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T06:47:30.920850Z | c706d1e8-f7a1-4591-b4ca-c3185a8fa8b6 ====================
+06:47:30.920925 [info ]: Started loading project
+06:47:30.921139 [info ]: Loading profiles.yml
+06:47:30.923282 [info ]: Finished loading project [  0.00s]
+==================== 2026-09-19T06:47:30.924428Z | 3541fab1-ec0a-4710-a9ca-f5d8069cec76 ====================
+06:47:30.924468 [info ]: Started loading project
+06:47:30.924614 [info ]: Loading profiles.yml
+06:47:30.930360 [debug]:    Started loading packages
+06:47:30.930880 [debug]:     Loaded [  0.00s] packages
+06:47:30.931459 [info ]: Finished loading project [  0.01s]
+06:47:30.931626 [info ]: Started parsing
+06:47:30.957031 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+06:47:30.957431 [warn ]: [NoNodeForYamlKey (dbt1089)]: Unused schema.yml entry for model 'my_first_dbt_model'
+  --> models/example/schema.yml
+06:47:30.957466 [warn ]: [NoNodeForYamlKey (dbt1089)]: Unused schema.yml entry for model 'my_second_dbt_model'
+  --> models/example/schema.yml
+06:47:31.044220 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+06:47:31.045067 [info ]: Finished parsing [  0.11s]
+06:47:31.045288 [info ]: Cached model count updated: 0 models (estimate)
+06:47:31.045299 [info ]: Cached model count updated: 0 models (accurate)
+06:47:31.045312 [info ]: Started scheduling
+06:47:31.045335 [info ]: Finished scheduling [  0.00s]
+06:47:31.045347 [debug]: Compilation - 0 nodes selected: {}
+06:47:31.045365 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+06:47:31.045378 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:47:31.045501 [info ]: Started scheduling
+06:47:31.045511 [info ]: Finished scheduling [  0.00s]
+06:47:31.046361 [info ]: Started building task graph
+06:47:31.046381 [info ]: Finished building task graph [  0.00s]
+06:47:31.050732 [info ]: Started scheduling
+06:47:31.050760 [info ]: Finished scheduling [  0.00s]
+06:47:31.050845 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 5 warnings for target 'default' [126ms]
+06:47:31.050887 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [130ms]
+06:47:31.052811 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T06:47:37.981190Z | 182602ed-2301-42e1-9fae-554736f098ce ====================
+06:47:37.981248 [info ]: Started loading project
+06:47:37.981453 [info ]: Loading profiles.yml
+06:47:37.983359 [info ]: Finished loading project [  0.00s]
+06:47:37.999455 [info ]: Cached model count updated: 0 models (estimate)
+06:47:37.999475 [info ]: Cached model count updated: 0 models (accurate)
+06:47:37.999489 [info ]: Started scheduling
+06:47:37.999508 [info ]: Finished scheduling [  0.00s]
+06:47:37.999521 [debug]: Compilation - 0 nodes selected: {}
+06:47:37.999542 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:47:38.000632 [info ]: Started building task graph
+06:47:38.000653 [info ]: Finished building task graph [  0.00s]
+06:47:38.004005 [info ]: Started scheduling
+06:47:38.004031 [info ]: Finished scheduling [  0.00s]
+06:47:38.004157 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [22ms]
+06:47:38.004233 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T06:49:25.455095Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T06:49:25.455212Z | 74605ae0-321a-48cc-b048-e1b5a3077426 ====================
+06:49:25.455235 [info ]: Starting dbt LSP server
+06:49:25.455254 [info ]: Connecting to LSP client on port 39797
+06:49:25.455495 [info ]: Successfully connected to LSP client
+06:49:25.455518 [info ]: Creating LSP service...
+06:49:25.456354 [info ]: Creating LSP server...
+06:49:25.456366 [info ]: Starting LSP server...
+06:49:37.031326 [info ]: Loading profiles.yml
+==================== 2026-09-19T06:49:38.349508Z | bbdd5afe-b0b1-4992-9096-451bb2a94c90 ====================
+06:49:38.349561 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully [52us]
+06:49:38.349769 [info ]: Waiting for lease on 'target' directory
+06:49:38.549659 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T06:49:41.190480Z | b92e887e-ef56-4200-8132-2ee714ddbcb9 ====================
+06:49:41.190556 [info ]: Started loading project
+06:49:41.190861 [info ]: Loading profiles.yml
+06:49:41.196870 [debug]:    Started loading packages
+06:49:41.197465 [debug]:     Loaded [  0.00s] packages
+06:49:41.198121 [info ]: Finished loading project [  0.01s]
+06:49:41.198397 [info ]: Started parsing
+06:49:41.230187 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+06:49:41.230691 [warn ]: [NoNodeForYamlKey (dbt1089)]: Unused schema.yml entry for model 'my_first_dbt_model'
+  --> models/example/schema.yml
+06:49:41.230738 [warn ]: [NoNodeForYamlKey (dbt1089)]: Unused schema.yml entry for model 'my_second_dbt_model'
+  --> models/example/schema.yml
+06:49:41.318486 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+06:49:41.319239 [info ]: Finished parsing [  0.12s]
+06:49:41.319424 [info ]: Cached model count updated: 0 models (estimate)
+06:49:41.319436 [info ]: Cached model count updated: 0 models (accurate)
+06:49:41.319481 [info ]: Started scheduling
+06:49:41.319531 [info ]: Finished scheduling [  0.00s]
+06:49:41.319543 [debug]: Compilation - 0 nodes selected: {}
+06:49:41.319574 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+06:49:41.319615 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:49:41.319624 [info ]: Started scheduling
+06:49:41.319633 [info ]: Finished scheduling [  0.00s]
+06:49:41.320986 [info ]: Started building task graph
+06:49:41.321020 [info ]: Finished building task graph [  0.00s]
+06:49:41.325604 [info ]: Started scheduling
+06:49:41.325628 [info ]: Finished scheduling [  0.00s]
+06:49:41.325717 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 5 warnings for target 'default' [135ms]
+06:49:41.325774 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T06:49:49.921099Z | 7c8a1565-7c52-4008-9ea0-924f28b8965e ====================
+06:49:49.921162 [info ]: Started loading project
+06:49:49.921366 [info ]: Loading profiles.yml
+06:49:49.923360 [info ]: Finished loading project [  0.00s]
+06:49:49.939794 [info ]: Cached model count updated: 0 models (estimate)
+06:49:49.939812 [info ]: Cached model count updated: 0 models (accurate)
+06:49:49.939826 [info ]: Started scheduling
+06:49:49.939851 [info ]: Finished scheduling [  0.00s]
+06:49:49.939863 [debug]: Compilation - 0 nodes selected: {}
+06:49:49.939887 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:49:49.940866 [info ]: Started building task graph
+06:49:49.940886 [info ]: Finished building task graph [  0.00s]
+06:49:49.944576 [info ]: Started scheduling
+06:49:49.944602 [info ]: Finished scheduling [  0.00s]
+06:49:49.944778 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [23ms]
+06:49:49.944842 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T06:51:15.611747Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T06:51:15.611869Z | a941c0e1-7a52-48c0-9bca-a5967311b6da ====================
+06:51:15.611891 [info ]: Starting dbt LSP server
+06:51:15.611907 [info ]: Connecting to LSP client on port 40651
+06:51:15.612118 [info ]: Successfully connected to LSP client
+06:51:15.612135 [info ]: Creating LSP service...
+06:51:15.612892 [info ]: Creating LSP server...
+06:51:15.612903 [info ]: Starting LSP server...
+06:51:17.420884 [info ]: Loading profiles.yml
+==================== 2026-09-19T06:51:17.990495Z | ea855af6-b157-4ff9-95c0-d220ab1e5d90 ====================
+06:51:17.990545 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully [49us]
+==================== 2026-09-19T06:51:19.110498Z | 70355814-7718-44d5-9082-012406a68a50 ====================
+06:51:19.110595 [info ]: Started loading project
+06:51:19.110908 [info ]: Loading profiles.yml
+06:51:19.116848 [debug]:    Started loading packages
+06:51:19.117438 [debug]:     Loaded [  0.00s] packages
+06:51:19.118073 [info ]: Finished loading project [  0.01s]
+06:51:19.118335 [info ]: Started parsing
+06:51:19.150042 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+06:51:19.150516 [warn ]: [NoNodeForYamlKey (dbt1089)]: Unused schema.yml entry for model 'my_first_dbt_model'
+  --> models/example/schema.yml
+06:51:19.150557 [warn ]: [NoNodeForYamlKey (dbt1089)]: Unused schema.yml entry for model 'my_second_dbt_model'
+  --> models/example/schema.yml
+06:51:19.237579 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+06:51:19.238339 [info ]: Finished parsing [  0.12s]
+06:51:19.238515 [info ]: Cached model count updated: 0 models (estimate)
+06:51:19.238526 [info ]: Cached model count updated: 0 models (accurate)
+06:51:19.238563 [info ]: Started scheduling
+06:51:19.238614 [info ]: Finished scheduling [  0.00s]
+06:51:19.238626 [debug]: Compilation - 0 nodes selected: {}
+06:51:19.238656 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+06:51:19.238669 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:51:19.238676 [info ]: Started scheduling
+06:51:19.238683 [info ]: Finished scheduling [  0.00s]
+06:51:19.240138 [info ]: Started building task graph
+06:51:19.240170 [info ]: Finished building task graph [  0.00s]
+06:51:19.244748 [info ]: Started scheduling
+06:51:19.244776 [info ]: Finished scheduling [  0.00s]
+06:51:19.244861 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 5 warnings for target 'default' [134ms]
+06:51:19.244925 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T06:51:23.490897Z | 2c87890b-6fdf-43d8-8ef2-35a839d285c1 ====================
+06:51:23.490959 [info ]: Started loading project
+06:51:23.491166 [info ]: Loading profiles.yml
+06:51:23.493237 [info ]: Finished loading project [  0.00s]
+06:51:23.509897 [info ]: Cached model count updated: 0 models (estimate)
+06:51:23.509917 [info ]: Cached model count updated: 0 models (accurate)
+06:51:23.509932 [info ]: Started scheduling
+06:51:23.509958 [info ]: Finished scheduling [  0.00s]
+06:51:23.509970 [debug]: Compilation - 0 nodes selected: {}
+06:51:23.509990 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:51:23.511022 [info ]: Started building task graph
+06:51:23.511044 [info ]: Finished building task graph [  0.00s]
+06:51:23.514601 [info ]: Started scheduling
+06:51:23.514629 [info ]: Finished scheduling [  0.00s]
+06:51:23.514817 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [23ms]
+06:51:23.514886 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T06:58:12.634647Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T06:58:12.634775Z | 8e35c8fb-1f3b-4868-b3e6-28f8831f71d6 ====================
+06:58:12.634797 [info ]: Starting dbt LSP server
+06:58:12.634816 [info ]: Connecting to LSP client on port 35685
+06:58:12.635037 [info ]: Successfully connected to LSP client
+06:58:12.635057 [info ]: Creating LSP service...
+06:58:12.635884 [info ]: Creating LSP server...
+06:58:12.635895 [info ]: Starting LSP server...
+06:58:14.210770 [info ]: Loading profiles.yml
+==================== 2026-09-19T06:58:15.520631Z | 84f92943-4757-49c6-8d76-b72e91b5b8ec ====================
+06:58:15.520681 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully [49us]
+==================== 2026-09-19T06:58:18.880699Z | 2b4f0b53-0fcf-4b71-b234-a4a0ec09447c ====================
+06:58:18.880802 [info ]: Started loading project
+06:58:18.881125 [info ]: Loading profiles.yml
+06:58:18.887529 [debug]:    Started loading packages
+06:58:18.888118 [debug]:     Loaded [  0.00s] packages
+06:58:18.888731 [info ]: Finished loading project [  0.01s]
+06:58:18.888989 [info ]: Started parsing
+06:58:18.920483 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+06:58:18.920924 [warn ]: [NoNodeForYamlKey (dbt1089)]: Unused schema.yml entry for model 'my_first_dbt_model'
+  --> models/example/schema.yml
+06:58:18.920962 [warn ]: [NoNodeForYamlKey (dbt1089)]: Unused schema.yml entry for model 'my_second_dbt_model'
+  --> models/example/schema.yml
+06:58:19.006950 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+06:58:19.007677 [info ]: Finished parsing [  0.12s]
+06:58:19.007855 [info ]: Cached model count updated: 0 models (estimate)
+06:58:19.007867 [info ]: Cached model count updated: 0 models (accurate)
+06:58:19.007911 [info ]: Started scheduling
+06:58:19.007963 [info ]: Finished scheduling [  0.00s]
+06:58:19.007977 [debug]: Compilation - 0 nodes selected: {}
+06:58:19.008005 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+06:58:19.008020 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:58:19.008033 [info ]: Started scheduling
+06:58:19.008050 [info ]: Finished scheduling [  0.00s]
+06:58:19.009410 [info ]: Started building task graph
+06:58:19.009454 [info ]: Finished building task graph [  0.00s]
+06:58:19.014049 [info ]: Started scheduling
+06:58:19.014082 [info ]: Finished scheduling [  0.00s]
+06:58:19.014169 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 5 warnings for target 'default' [133ms]
+06:58:19.014232 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T06:58:23.611308Z | e27defa5-ca49-4022-b3e4-4764639f39f4 ====================
+06:58:23.611385 [info ]: Started loading project
+06:58:23.611675 [info ]: Loading profiles.yml
+06:58:23.614581 [info ]: Finished loading project [  0.00s]
+06:58:23.643518 [info ]: Cached model count updated: 0 models (estimate)
+06:58:23.643545 [info ]: Cached model count updated: 0 models (accurate)
+06:58:23.643561 [info ]: Started scheduling
+06:58:23.643584 [info ]: Finished scheduling [  0.00s]
+06:58:23.643601 [debug]: Compilation - 0 nodes selected: {}
+06:58:23.643618 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+06:58:23.644815 [info ]: Started building task graph
+06:58:23.644839 [info ]: Finished building task graph [  0.00s]
+06:58:23.648486 [info ]: Started scheduling
+06:58:23.648515 [info ]: Finished scheduling [  0.00s]
+06:58:23.648633 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [37ms]
+06:58:23.648697 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:07:16.979491Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:07:16.979636Z | 748d7c1d-8eab-4d1e-8f44-f2883c663daf ====================
+07:07:16.979658 [info ]: Starting dbt LSP server
+07:07:16.979676 [info ]: Connecting to LSP client on port 35227
+07:07:16.979894 [info ]: Successfully connected to LSP client
+07:07:16.979912 [info ]: Creating LSP service...
+07:07:16.981046 [info ]: Creating LSP server...
+07:07:16.981058 [info ]: Starting LSP server...
+07:07:19.031038 [info ]: Loading profiles.yml
+==================== 2026-09-19T07:07:19.370523Z | c931a188-a9d5-4ba5-a76e-27bb11b7b352 ====================
+07:07:19.370577 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully [54us]
+==================== 2026-09-19T07:07:19.910482Z | 4af5c55d-f45f-4aa8-be1f-65004f07c89d ====================
+07:07:19.910583 [info ]: Started loading project
+07:07:19.910921 [info ]: Loading profiles.yml
+07:07:19.916835 [debug]:    Started loading packages
+07:07:19.917448 [debug]:     Loaded [  0.00s] packages
+07:07:19.918089 [info ]: Finished loading project [  0.01s]
+07:07:19.918345 [info ]: Started parsing
+07:07:19.950192 [debug]: Finished parsing models/example/schema.yml [  0.00s]
+07:07:19.950657 [warn ]: [NoNodeForYamlKey (dbt1089)]: Unused schema.yml entry for model 'my_first_dbt_model'
+  --> models/example/schema.yml
+07:07:19.950699 [warn ]: [NoNodeForYamlKey (dbt1089)]: Unused schema.yml entry for model 'my_second_dbt_model'
+  --> models/example/schema.yml
+07:07:20.036980 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+07:07:20.037740 [info ]: Finished parsing [  0.12s]
+07:07:20.037927 [info ]: Cached model count updated: 0 models (estimate)
+07:07:20.037938 [info ]: Cached model count updated: 0 models (accurate)
+07:07:20.037990 [info ]: Started scheduling
+07:07:20.038038 [info ]: Finished scheduling [  0.00s]
+07:07:20.038053 [debug]: Compilation - 0 nodes selected: {}
+07:07:20.038082 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+07:07:20.038098 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:07:20.038106 [info ]: Started scheduling
+07:07:20.038113 [info ]: Finished scheduling [  0.00s]
+07:07:20.039484 [info ]: Started building task graph
+07:07:20.039518 [info ]: Finished building task graph [  0.00s]
+07:07:20.044112 [info ]: Started scheduling
+07:07:20.044140 [info ]: Finished scheduling [  0.00s]
+07:07:20.044227 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 5 warnings for target 'default' [133ms]
+07:07:20.044285 [info ]: Cached model count updated: 0 models (accurate)
+07:07:23.409681 [debug]: Ignoring unsupported LSP notification
+07:07:25.269795 [debug]: Ignoring unsupported LSP notification
+07:07:25.269819 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T07:07:26.800497Z | 015de014-ae88-441c-a416-c6a8599beaf8 ====================
+07:07:26.800586 [info ]: Started loading project
+07:07:26.800825 [info ]: Loading profiles.yml
+07:07:26.803351 [info ]: Finished loading project [  0.00s]
+07:07:26.827684 [info ]: Cached model count updated: 0 models (estimate)
+07:07:26.827707 [info ]: Cached model count updated: 0 models (accurate)
+07:07:26.827721 [info ]: Started scheduling
+07:07:26.827746 [info ]: Finished scheduling [  0.00s]
+07:07:26.827759 [debug]: Compilation - 0 nodes selected: {}
+07:07:26.827780 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:07:26.829038 [info ]: Started building task graph
+07:07:26.829059 [info ]: Finished building task graph [  0.00s]
+07:07:26.832578 [info ]: Started scheduling
+07:07:26.832606 [info ]: Finished scheduling [  0.00s]
+07:07:26.832725 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [32ms]
+07:07:26.832791 [info ]: Cached model count updated: 0 models (accurate)
+07:07:51.089692 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T07:07:51.090665Z | eff1764a-0050-4003-9d7e-400557445c35 ====================
+07:07:51.090719 [info ]: Started loading project
+07:07:51.090955 [info ]: Loading profiles.yml
+07:07:51.093288 [info ]: Finished loading project [  0.00s]
+07:07:51.116263 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [25ms]
+07:07:51.116344 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:10:39.998918Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:10:39.999038Z | cfe0d4fe-0246-44a7-b8ad-951c07aad64f ====================
+07:10:39.999060 [info ]: Starting dbt LSP server
+07:10:39.999078 [info ]: Connecting to LSP client on port 58765
+07:10:39.999305 [info ]: Successfully connected to LSP client
+07:10:39.999330 [info ]: Creating LSP service...
+07:10:40.000195 [info ]: Creating LSP server...
+07:10:40.000208 [info ]: Starting LSP server...
+07:10:44.070936 [info ]: Loading profiles.yml
+==================== 2026-09-19T07:10:45.050513Z | ede46293-b701-4c86-80de-245ac8bd608b ====================
+07:10:45.050586 [info ]: Started loading project
+07:10:45.050876 [info ]: Loading profiles.yml
+07:10:45.056844 [debug]:    Started loading packages
+07:10:45.057462 [debug]:     Loaded [  0.00s] packages
+07:10:45.058101 [info ]: Finished loading project [  0.01s]
+07:10:45.058362 [info ]: Started parsing
+07:10:45.177180 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+07:10:45.177946 [info ]: Finished parsing [  0.12s]
+07:10:45.178132 [info ]: Cached model count updated: 0 models (estimate)
+07:10:45.178143 [info ]: Cached model count updated: 0 models (accurate)
+07:10:45.178194 [info ]: Started scheduling
+07:10:45.178247 [info ]: Finished scheduling [  0.00s]
+07:10:45.178259 [debug]: Compilation - 0 nodes selected: {}
+07:10:45.178288 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+07:10:45.178300 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:10:45.178312 [info ]: Started scheduling
+07:10:45.178321 [info ]: Finished scheduling [  0.00s]
+07:10:45.179776 [info ]: Started building task graph
+07:10:45.179813 [info ]: Finished building task graph [  0.00s]
+07:10:45.184653 [info ]: Started scheduling
+07:10:45.184687 [info ]: Finished scheduling [  0.00s]
+07:10:45.184783 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 warnings for target 'default' [134ms]
+07:10:45.184843 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:10:54.540503Z | 525575e9-17c0-47f0-82e1-7a0a297156f5 ====================
+07:10:54.540566 [info ]: Started loading project
+07:10:54.540816 [info ]: Loading profiles.yml
+07:10:54.543543 [info ]: Finished loading project [  0.00s]
+07:10:54.564915 [info ]: Cached model count updated: 0 models (estimate)
+07:10:54.564941 [info ]: Cached model count updated: 0 models (accurate)
+07:10:54.564956 [info ]: Started scheduling
+07:10:54.564980 [info ]: Finished scheduling [  0.00s]
+07:10:54.564994 [debug]: Compilation - 0 nodes selected: {}
+07:10:54.565017 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:10:54.566236 [info ]: Started building task graph
+07:10:54.566259 [info ]: Finished building task graph [  0.00s]
+07:10:54.570081 [info ]: Started scheduling
+07:10:54.570111 [info ]: Finished scheduling [  0.00s]
+07:10:54.570223 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [29ms]
+07:10:54.570298 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:14:19.122468Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:14:19.122593Z | a507649d-e0d7-44ed-a572-2bf02b64f930 ====================
+07:14:19.122612 [info ]: Starting dbt LSP server
+07:14:19.122633 [info ]: Connecting to LSP client on port 43717
+07:14:19.122868 [info ]: Successfully connected to LSP client
+07:14:19.122884 [info ]: Creating LSP service...
+07:14:19.123712 [info ]: Creating LSP server...
+07:14:19.123725 [info ]: Starting LSP server...
+07:14:22.110888 [info ]: Loading profiles.yml
+==================== 2026-09-19T07:14:23.060463Z | fb0de63a-18a9-417a-9ac7-c60476680b2b ====================
+07:14:23.060531 [info ]: Started loading project
+07:14:23.060825 [info ]: Loading profiles.yml
+07:14:23.066796 [debug]:    Started loading packages
+07:14:23.067398 [debug]:     Loaded [  0.00s] packages
+07:14:23.068047 [info ]: Finished loading project [  0.01s]
+07:14:23.068311 [info ]: Started parsing
+07:14:23.187458 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+07:14:23.188238 [info ]: Finished parsing [  0.12s]
+07:14:23.188424 [info ]: Cached model count updated: 0 models (estimate)
+07:14:23.188435 [info ]: Cached model count updated: 0 models (accurate)
+07:14:23.188473 [info ]: Started scheduling
+07:14:23.188522 [info ]: Finished scheduling [  0.00s]
+07:14:23.188534 [debug]: Compilation - 0 nodes selected: {}
+07:14:23.188564 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+07:14:23.188577 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:14:23.188586 [info ]: Started scheduling
+07:14:23.188597 [info ]: Finished scheduling [  0.00s]
+07:14:23.190073 [info ]: Started building task graph
+07:14:23.190102 [info ]: Finished building task graph [  0.00s]
+07:14:23.194737 [info ]: Started scheduling
+07:14:23.194766 [info ]: Finished scheduling [  0.00s]
+07:14:23.194856 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 warnings for target 'default' [134ms]
+07:14:23.194916 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:14:28.450625Z | f7175010-b16f-48b3-a555-a8013f3342c5 ====================
+07:14:28.450676 [info ]: Started loading project
+07:14:28.450871 [info ]: Loading profiles.yml
+07:14:28.453416 [info ]: Finished loading project [  0.00s]
+07:14:28.474453 [info ]: Cached model count updated: 0 models (estimate)
+07:14:28.474477 [info ]: Cached model count updated: 0 models (accurate)
+07:14:28.474495 [info ]: Started scheduling
+07:14:28.474523 [info ]: Finished scheduling [  0.00s]
+07:14:28.474538 [debug]: Compilation - 0 nodes selected: {}
+07:14:28.474564 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:14:28.475742 [info ]: Started building task graph
+07:14:28.475764 [info ]: Finished building task graph [  0.00s]
+07:14:28.479217 [info ]: Started scheduling
+07:14:28.479244 [info ]: Finished scheduling [  0.00s]
+07:14:28.479382 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [28ms]
+07:14:28.479459 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:18:40.422112Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:18:40.422235Z | e9b100f0-463f-46b6-9041-15bc00c00f02 ====================
+07:18:40.422258 [info ]: Starting dbt LSP server
+07:18:40.422277 [info ]: Connecting to LSP client on port 54941
+07:18:40.422530 [info ]: Successfully connected to LSP client
+07:18:40.422547 [info ]: Creating LSP service...
+07:18:40.423361 [info ]: Creating LSP server...
+07:18:40.423373 [info ]: Starting LSP server...
+07:18:40.990928 [info ]: Loading profiles.yml
+==================== 2026-09-19T07:18:41.360552Z | eb18038d-a79a-48ff-bf32-b863a09088be ====================
+07:18:41.360635 [info ]: Started loading project
+07:18:41.360919 [info ]: Loading profiles.yml
+07:18:41.366805 [debug]:    Started loading packages
+07:18:41.367424 [debug]:     Loaded [  0.00s] packages
+07:18:41.368076 [info ]: Finished loading project [  0.01s]
+07:18:41.368351 [info ]: Started parsing
+07:18:41.490623 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+07:18:41.491454 [info ]: Finished parsing [  0.12s]
+07:18:41.491626 [info ]: Cached model count updated: 0 models (estimate)
+07:18:41.491637 [info ]: Cached model count updated: 0 models (accurate)
+07:18:41.491677 [info ]: Started scheduling
+07:18:41.491726 [info ]: Finished scheduling [  0.00s]
+07:18:41.491737 [debug]: Compilation - 0 nodes selected: {}
+07:18:41.491772 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+07:18:41.491786 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:18:41.491797 [info ]: Started scheduling
+07:18:41.491808 [info ]: Finished scheduling [  0.00s]
+07:18:41.493143 [info ]: Started building task graph
+07:18:41.493173 [info ]: Finished building task graph [  0.00s]
+07:18:41.497835 [info ]: Started scheduling
+07:18:41.497866 [info ]: Finished scheduling [  0.00s]
+07:18:41.497957 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 warnings for target 'default' [137ms]
+07:18:41.498018 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:18:45.690471Z | 6c8e295a-d755-40bd-ba77-344b3a221441 ====================
+07:18:45.690542 [info ]: Started loading project
+07:18:45.690798 [info ]: Loading profiles.yml
+07:18:45.693021 [info ]: Finished loading project [  0.00s]
+07:18:45.714178 [info ]: Cached model count updated: 0 models (estimate)
+07:18:45.714205 [info ]: Cached model count updated: 0 models (accurate)
+07:18:45.714221 [info ]: Started scheduling
+07:18:45.714244 [info ]: Finished scheduling [  0.00s]
+07:18:45.714258 [debug]: Compilation - 0 nodes selected: {}
+07:18:45.714284 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:18:45.715493 [info ]: Started building task graph
+07:18:45.715514 [info ]: Finished building task graph [  0.00s]
+07:18:45.719149 [info ]: Started scheduling
+07:18:45.719177 [info ]: Finished scheduling [  0.00s]
+07:18:45.719334 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [28ms]
+07:18:45.719421 [info ]: Cached model count updated: 0 models (accurate)
+07:20:01.979813 [debug]: Ignoring unsupported LSP notification
+07:20:11.229700 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T07:20:37.550747Z | 32676602-db12-4cd5-aae0-550798a53b02 ====================
+07:20:37.550812 [info ]: Started loading project
+07:20:37.551027 [info ]: Loading profiles.yml
+07:20:37.553152 [info ]: Finished loading project [  0.00s]
+07:20:37.571958 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [21ms]
+07:20:37.572065 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:20:40.910912Z | 2c566435-3571-4646-9bba-2a5334613972 ====================
+07:20:40.910976 [info ]: Started loading project
+07:20:40.911185 [info ]: Loading profiles.yml
+07:20:40.913351 [info ]: Finished loading project [  0.00s]
+07:20:40.930569 [info ]: Cached model count updated: 0 models (estimate)
+07:20:40.930593 [info ]: Cached model count updated: 0 models (accurate)
+07:20:40.930609 [info ]: Started scheduling
+07:20:40.930632 [info ]: Finished scheduling [  0.00s]
+07:20:40.930646 [debug]: Compilation - 0 nodes selected: {}
+07:20:40.930666 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:20:40.931841 [info ]: Started building task graph
+07:20:40.931863 [info ]: Finished building task graph [  0.00s]
+07:20:40.935675 [info ]: Started scheduling
+07:20:40.935703 [info ]: Finished scheduling [  0.00s]
+07:20:40.935905 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [24ms]
+07:20:40.935957 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:20:49.490735Z | af3e0d62-ae99-42d3-a906-278a614b6768 ====================
+07:20:49.490805 [info ]: Started loading project
+07:20:49.491025 [info ]: Loading profiles.yml
+07:20:49.493166 [info ]: Finished loading project [  0.00s]
+07:20:49.512341 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [21ms]
+07:20:49.512407 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:20:54.670473Z | ab98dc51-fa10-4ab7-a05f-b43b2df44f58 ====================
+07:20:54.670548 [info ]: Started loading project
+07:20:54.670786 [info ]: Loading profiles.yml
+07:20:54.673623 [info ]: Finished loading project [  0.00s]
+07:20:54.694563 [info ]: Cached model count updated: 0 models (estimate)
+07:20:54.694588 [info ]: Cached model count updated: 0 models (accurate)
+07:20:54.694605 [info ]: Started scheduling
+07:20:54.694633 [info ]: Finished scheduling [  0.00s]
+07:20:54.694648 [debug]: Compilation - 0 nodes selected: {}
+07:20:54.694669 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:20:54.695886 [info ]: Started building task graph
+07:20:54.695908 [info ]: Finished building task graph [  0.00s]
+07:20:54.699458 [info ]: Started scheduling
+07:20:54.699483 [info ]: Finished scheduling [  0.00s]
+07:20:54.699580 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [29ms]
+07:20:54.699666 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:25:38.740758Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:25:38.740865Z | aa06c056-7f2f-49d5-b837-efa5b0839ac6 ====================
+07:25:38.740886 [info ]: Starting dbt LSP server
+07:25:38.740905 [info ]: Connecting to LSP client on port 35205
+07:25:38.741144 [info ]: Successfully connected to LSP client
+07:25:38.741173 [info ]: Creating LSP service...
+07:25:38.742065 [info ]: Creating LSP server...
+07:25:38.742078 [info ]: Starting LSP server...
+07:25:41.879701 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T07:25:41.880644Z | c0806033-d53e-4c12-9ed8-2d14607bbd0e ====================
+07:25:41.880760 [info ]: Started loading project
+07:25:41.881342 [info ]: Loading profiles.yml
+07:25:41.887619 [debug]:    Started loading packages
+07:25:41.888297 [debug]:     Loaded [  0.00s] packages
+07:25:41.888939 [info ]: Finished loading project [  0.01s]
+07:25:41.889209 [info ]: Started parsing
+07:25:42.011811 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+07:25:42.012617 [info ]: Finished parsing [  0.12s]
+07:25:42.012796 [info ]: Cached model count updated: 0 models (estimate)
+07:25:42.012808 [info ]: Cached model count updated: 0 models (accurate)
+07:25:42.012845 [info ]: Started scheduling
+07:25:42.012893 [info ]: Finished scheduling [  0.00s]
+07:25:42.012907 [debug]: Compilation - 0 nodes selected: {}
+07:25:42.012935 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+07:25:42.012954 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:25:42.012965 [info ]: Started scheduling
+07:25:42.012976 [info ]: Finished scheduling [  0.00s]
+07:25:42.014359 [info ]: Started building task graph
+07:25:42.014392 [info ]: Finished building task graph [  0.00s]
+07:25:42.019041 [info ]: Started scheduling
+07:25:42.019077 [info ]: Finished scheduling [  0.00s]
+07:25:42.019175 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 warnings for target 'default' [138ms]
+07:25:42.019243 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:25:47.920753Z | e73151dc-e109-4d1a-8b3c-9967727f7bcb ====================
+07:25:47.920811 [info ]: Started loading project
+07:25:47.921028 [info ]: Loading profiles.yml
+07:25:47.922934 [info ]: Finished loading project [  0.00s]
+07:25:47.943711 [info ]: Cached model count updated: 0 models (estimate)
+07:25:47.943732 [info ]: Cached model count updated: 0 models (accurate)
+07:25:47.943745 [info ]: Started scheduling
+07:25:47.943770 [info ]: Finished scheduling [  0.00s]
+07:25:47.943784 [debug]: Compilation - 0 nodes selected: {}
+07:25:47.943810 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:25:47.944905 [info ]: Started building task graph
+07:25:47.944927 [info ]: Finished building task graph [  0.00s]
+07:25:47.948291 [info ]: Started scheduling
+07:25:47.948318 [info ]: Finished scheduling [  0.00s]
+07:25:47.948452 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [27ms]
+07:25:47.948511 [info ]: Cached model count updated: 0 models (accurate)
+07:27:32.029681 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T07:27:32.661848Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:27:32.661963Z | fcf095bf-1ceb-4bae-a69c-6d9e6c1393f7 ====================
+07:27:32.661984 [info ]: Starting dbt LSP server
+07:27:32.662002 [info ]: Connecting to LSP client on port 60487
+07:27:32.662235 [info ]: Successfully connected to LSP client
+07:27:32.662258 [info ]: Creating LSP service...
+07:27:32.663089 [info ]: Creating LSP server...
+07:27:32.663101 [info ]: Starting LSP server...
+==================== 2026-09-19T07:27:51.418050Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:27:51.418169Z | 07273382-03b4-4c28-9e46-97ae1e91c69f ====================
+07:27:51.418190 [info ]: Starting dbt LSP server
+07:27:51.418209 [info ]: Connecting to LSP client on port 35433
+07:27:51.418449 [info ]: Successfully connected to LSP client
+07:27:51.418474 [info ]: Creating LSP service...
+07:27:51.419351 [info ]: Creating LSP server...
+07:27:51.419362 [info ]: Starting LSP server...
+07:27:53.239987 [debug]: Ignoring unsupported LSP notification
+07:27:53.240929 [info ]: Loading profiles.yml
+==================== 2026-09-19T07:27:54.620161Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:27:54.620282Z | 73b5c1b8-f4a3-40dc-ac14-16dc3f78468f ====================
+07:27:54.620305 [info ]: Starting dbt LSP server
+07:27:54.620321 [info ]: Connecting to LSP client on port 43303
+07:27:54.620548 [info ]: Successfully connected to LSP client
+07:27:54.620565 [info ]: Creating LSP service...
+07:27:54.621390 [info ]: Creating LSP server...
+07:27:54.621402 [info ]: Starting LSP server...
+07:27:56.149925 [info ]: Waiting for lease on 'target' directory
+==================== 2026-09-19T07:28:20.950472Z | 32e1f0ed-e1be-4f2b-84bc-e1bd77d3365c ====================
+07:28:20.950544 [info ]: Started loading project
+07:28:20.950862 [info ]: Loading profiles.yml
+07:28:20.956935 [debug]:    Started loading packages
+07:28:20.957541 [debug]:     Loaded [  0.00s] packages
+07:28:20.958187 [info ]: Finished loading project [  0.01s]
+07:28:20.958462 [info ]: Started parsing
+07:28:21.091571 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+07:28:21.092346 [info ]: Finished parsing [  0.13s]
+07:28:21.092531 [info ]: Cached model count updated: 0 models (estimate)
+07:28:21.092542 [info ]: Cached model count updated: 0 models (accurate)
+07:28:21.092589 [info ]: Started scheduling
+07:28:21.092637 [info ]: Finished scheduling [  0.00s]
+07:28:21.092648 [debug]: Compilation - 0 nodes selected: {}
+07:28:21.092674 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+07:28:21.092688 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:28:21.092700 [info ]: Started scheduling
+07:28:21.092710 [info ]: Finished scheduling [  0.00s]
+07:28:21.094041 [info ]: Started building task graph
+07:28:21.094074 [info ]: Finished building task graph [  0.00s]
+07:28:21.098687 [info ]: Started scheduling
+07:28:21.098715 [info ]: Finished scheduling [  0.00s]
+07:28:21.098804 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 warnings for target 'default' [148ms]
+07:28:21.098861 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:28:21.460506Z | 4f56a962-6976-4437-bd0d-c40b94ce9b5d ====================
+07:28:21.460633 [info ]: Started loading project
+07:28:21.461216 [info ]: Loading profiles.yml
+07:28:21.467391 [debug]:    Started loading packages
+07:28:21.468073 [debug]:     Loaded [  0.00s] packages
+07:28:21.468737 [info ]: Finished loading project [  0.01s]
+07:28:21.468998 [info ]: Started parsing
+07:28:21.598234 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+07:28:21.599062 [info ]: Finished parsing [  0.13s]
+07:28:21.599238 [info ]: Cached model count updated: 0 models (estimate)
+07:28:21.599250 [info ]: Cached model count updated: 0 models (accurate)
+07:28:21.599292 [info ]: Started scheduling
+07:28:21.599343 [info ]: Finished scheduling [  0.00s]
+07:28:21.599359 [debug]: Compilation - 0 nodes selected: {}
+07:28:21.599399 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+07:28:21.599413 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:28:21.599425 [info ]: Started scheduling
+07:28:21.599437 [info ]: Finished scheduling [  0.00s]
+07:28:21.600869 [info ]: Started building task graph
+07:28:21.600901 [info ]: Finished building task graph [  0.00s]
+07:28:21.605626 [info ]: Started scheduling
+07:28:21.605658 [info ]: Finished scheduling [  0.00s]
+07:28:21.605754 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 warnings for target 'default' [145ms]
+07:28:21.605817 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:28:25.671099Z | cd5c0766-de94-4541-9202-dd45104179cc ====================
+07:28:25.671158 [info ]: Started loading project
+07:28:25.671385 [info ]: Loading profiles.yml
+07:28:25.673368 [info ]: Finished loading project [  0.00s]
+07:28:25.695812 [info ]: Cached model count updated: 0 models (estimate)
+07:28:25.695839 [info ]: Cached model count updated: 0 models (accurate)
+07:28:25.695855 [info ]: Started scheduling
+07:28:25.695879 [info ]: Finished scheduling [  0.00s]
+07:28:25.695895 [debug]: Compilation - 0 nodes selected: {}
+07:28:25.695925 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:28:25.697162 [info ]: Started building task graph
+07:28:25.697185 [info ]: Finished building task graph [  0.00s]
+07:28:25.701176 [info ]: Started scheduling
+07:28:25.701211 [info ]: Finished scheduling [  0.00s]
+07:28:25.701318 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [30ms]
+07:28:25.701386 [info ]: Cached model count updated: 0 models (accurate)
+07:28:31.660386 [info ]: Loading profiles.yml
+==================== 2026-09-19T07:29:58.754769Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:29:58.754887Z | e7f9e075-8987-4166-ae26-1046c9681432 ====================
+07:29:58.754909 [info ]: Starting dbt LSP server
+07:29:58.754927 [info ]: Connecting to LSP client on port 46941
+07:29:58.755177 [info ]: Successfully connected to LSP client
+07:29:58.755202 [info ]: Creating LSP service...
+07:29:58.756029 [info ]: Creating LSP server...
+07:29:58.756040 [info ]: Starting LSP server...
+==================== 2026-09-19T07:30:17.014967Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:30:17.015085Z | 93be8ece-33cc-48b1-b23c-b7da2705bdb3 ====================
+07:30:17.015106 [info ]: Starting dbt LSP server
+07:30:17.015125 [info ]: Connecting to LSP client on port 54941
+07:30:17.015296 [info ]: Successfully connected to LSP client
+07:30:17.015320 [info ]: Creating LSP service...
+07:30:17.016170 [info ]: Creating LSP server...
+07:30:17.016182 [info ]: Starting LSP server...
+07:30:17.630892 [info ]: Loading profiles.yml
+07:30:18.919697 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T07:30:18.920544Z | 2560fc3d-1365-4017-a57f-17419b40a498 ====================
+07:30:18.920608 [info ]: Started loading project
+07:30:18.920904 [info ]: Loading profiles.yml
+07:30:18.926857 [debug]:    Started loading packages
+07:30:18.927511 [debug]:     Loaded [  0.00s] packages
+07:30:18.928110 [info ]: Finished loading project [  0.01s]
+07:30:18.928360 [info ]: Started parsing
+07:30:19.049179 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+07:30:19.049983 [info ]: Finished parsing [  0.12s]
+07:30:19.050164 [info ]: Cached model count updated: 0 models (estimate)
+07:30:19.050175 [info ]: Cached model count updated: 0 models (accurate)
+07:30:19.050226 [info ]: Started scheduling
+07:30:19.050274 [info ]: Finished scheduling [  0.00s]
+07:30:19.050290 [debug]: Compilation - 0 nodes selected: {}
+07:30:19.050318 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+07:30:19.050331 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:30:19.050342 [info ]: Started scheduling
+07:30:19.050354 [info ]: Finished scheduling [  0.00s]
+07:30:19.051772 [info ]: Started building task graph
+07:30:19.051806 [info ]: Finished building task graph [  0.00s]
+07:30:19.056413 [info ]: Started scheduling
+07:30:19.056442 [info ]: Finished scheduling [  0.00s]
+07:30:19.056528 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 warnings for target 'default' [135ms]
+07:30:19.056584 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:30:22.963976Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:30:22.964102Z | 5e10bc78-27d6-4236-9c0e-3f51c7d81c77 ====================
+07:30:22.964119 [info ]: Starting dbt LSP server
+07:30:22.964139 [info ]: Connecting to LSP client on port 38723
+07:30:22.964367 [info ]: Successfully connected to LSP client
+07:30:22.964386 [info ]: Creating LSP service...
+07:30:22.965191 [info ]: Creating LSP server...
+07:30:22.965203 [info ]: Starting LSP server...
+07:30:24.099686 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T07:30:26.820561Z | 8a44b23f-471d-4025-9a56-8886789cd4c7 ====================
+07:30:26.820664 [info ]: Started loading project
+07:30:26.821263 [info ]: Loading profiles.yml
+07:30:26.827580 [debug]:    Started loading packages
+07:30:26.828285 [debug]:     Loaded [  0.00s] packages
+07:30:26.829026 [info ]: Finished loading project [  0.01s]
+07:30:26.829298 [info ]: Started parsing
+07:30:26.948763 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+07:30:26.949532 [info ]: Finished parsing [  0.12s]
+07:30:26.949737 [info ]: Cached model count updated: 0 models (estimate)
+07:30:26.949750 [info ]: Cached model count updated: 0 models (accurate)
+07:30:26.949788 [info ]: Started scheduling
+07:30:26.949833 [info ]: Finished scheduling [  0.00s]
+07:30:26.949848 [debug]: Compilation - 0 nodes selected: {}
+07:30:26.949874 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+07:30:26.949888 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:30:26.949900 [info ]: Started scheduling
+07:30:26.949910 [info ]: Finished scheduling [  0.00s]
+07:30:26.951233 [info ]: Started building task graph
+07:30:26.951262 [info ]: Finished building task graph [  0.00s]
+07:30:26.955730 [info ]: Started scheduling
+07:30:26.955756 [info ]: Finished scheduling [  0.00s]
+07:30:26.955842 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 warnings for target 'default' [135ms]
+07:30:26.955901 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:30:35.580450Z | c8fae0d0-b227-4f8a-87d9-43ee778ce2c3 ====================
+07:30:35.580513 [info ]: Started loading project
+07:30:35.580755 [info ]: Loading profiles.yml
+07:30:35.583481 [info ]: Finished loading project [  0.00s]
+07:30:35.604012 [info ]: Cached model count updated: 0 models (estimate)
+07:30:35.604033 [info ]: Cached model count updated: 0 models (accurate)
+07:30:35.604047 [info ]: Started scheduling
+07:30:35.604073 [info ]: Finished scheduling [  0.00s]
+07:30:35.604087 [debug]: Compilation - 0 nodes selected: {}
+07:30:35.604108 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:30:35.605304 [info ]: Started building task graph
+07:30:35.605326 [info ]: Finished building task graph [  0.00s]
+07:30:35.609007 [info ]: Started scheduling
+07:30:35.609037 [info ]: Finished scheduling [  0.00s]
+07:30:35.609169 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [28ms]
+07:30:35.609235 [info ]: Cached model count updated: 0 models (accurate)
+07:31:12.100475 [info ]: Loading profiles.yml
+==================== 2026-09-19T07:31:16.693984Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:31:16.694101Z | 41c584e0-2ecb-472f-9061-e298f18d1715 ====================
+07:31:16.694122 [info ]: Starting dbt LSP server
+07:31:16.694142 [info ]: Connecting to LSP client on port 46471
+07:31:16.694354 [info ]: Successfully connected to LSP client
+07:31:16.694373 [info ]: Creating LSP service...
+07:31:16.695140 [info ]: Creating LSP server...
+07:31:16.695152 [info ]: Starting LSP server...
+==================== 2026-09-19T07:31:17.760494Z | ab209f38-a5b7-44d0-8355-9d3204c26d3d ====================
+07:31:17.760601 [info ]: Started loading project
+07:31:17.761193 [info ]: Loading profiles.yml
+07:31:17.767444 [debug]:    Started loading packages
+07:31:17.768106 [debug]:     Loaded [  0.00s] packages
+07:31:17.768759 [info ]: Finished loading project [  0.01s]
+07:31:17.769008 [info ]: Started parsing
+07:31:17.886345 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+07:31:17.887036 [info ]: Finished parsing [  0.12s]
+07:31:17.887209 [info ]: Cached model count updated: 0 models (estimate)
+07:31:17.887220 [info ]: Cached model count updated: 0 models (accurate)
+07:31:17.887254 [info ]: Started scheduling
+07:31:17.887299 [info ]: Finished scheduling [  0.00s]
+07:31:17.887314 [debug]: Compilation - 0 nodes selected: {}
+07:31:17.887342 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+07:31:17.887358 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:31:17.887382 [info ]: Started scheduling
+07:31:17.887393 [info ]: Finished scheduling [  0.00s]
+07:31:17.888750 [info ]: Started building task graph
+07:31:17.888788 [info ]: Finished building task graph [  0.00s]
+07:31:17.893867 [info ]: Started scheduling
+07:31:17.893894 [info ]: Finished scheduling [  0.00s]
+07:31:17.893985 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 warnings for target 'default' [133ms]
+07:31:17.894045 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:31:21.700969Z | c60ef9a8-ac14-41e4-af80-751e5e9b5730 ====================
+07:31:21.701029 [info ]: Started loading project
+07:31:21.701233 [info ]: Loading profiles.yml
+07:31:21.703275 [info ]: Finished loading project [  0.00s]
+07:31:21.720097 [info ]: Cached model count updated: 0 models (estimate)
+07:31:21.720117 [info ]: Cached model count updated: 0 models (accurate)
+07:31:21.720131 [info ]: Started scheduling
+07:31:21.720152 [info ]: Finished scheduling [  0.00s]
+07:31:21.720166 [debug]: Compilation - 0 nodes selected: {}
+07:31:21.720183 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:31:21.721200 [info ]: Started building task graph
+07:31:21.721221 [info ]: Finished building task graph [  0.00s]
+07:31:21.725408 [info ]: Started scheduling
+07:31:21.725435 [info ]: Finished scheduling [  0.00s]
+07:31:21.725625 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [24ms]
+07:31:21.725697 [info ]: Cached model count updated: 0 models (accurate)
+07:31:28.860520 [info ]: Loading profiles.yml
+07:35:17.219719 [debug]: Ignoring unsupported LSP notification
+07:36:48.259702 [debug]: Ignoring unsupported LSP notification
+07:38:43.439682 [debug]: Ignoring unsupported LSP notification
+07:38:46.669695 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T07:39:18.550467Z | 3d1890f5-2837-4759-88c9-7f2d23919ba2 ====================
+07:39:18.550524 [info ]: Started loading project
+07:39:18.550726 [info ]: Loading profiles.yml
+07:39:18.552944 [info ]: Finished loading project [  0.00s]
+07:39:18.575841 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [25ms]
+07:39:18.575965 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:39:22.650559Z | 2f14fd9c-3593-484b-ace8-650dc88e9887 ====================
+07:39:22.650632 [info ]: Started loading project
+07:39:22.650878 [info ]: Loading profiles.yml
+07:39:22.653189 [info ]: Finished loading project [  0.00s]
+07:39:22.673803 [info ]: Cached model count updated: 0 models (estimate)
+07:39:22.673824 [info ]: Cached model count updated: 0 models (accurate)
+07:39:22.673837 [info ]: Started scheduling
+07:39:22.673861 [info ]: Finished scheduling [  0.00s]
+07:39:22.673874 [debug]: Compilation - 0 nodes selected: {}
+07:39:22.673895 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:39:22.675032 [info ]: Started building task graph
+07:39:22.675052 [info ]: Finished building task graph [  0.00s]
+07:39:22.679070 [info ]: Started scheduling
+07:39:22.679095 [info ]: Finished scheduling [  0.00s]
+07:39:22.679159 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [28ms]
+07:39:22.679212 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:41:02.330515Z | 06a035a0-5f97-40bf-a9fc-b053f944763e ====================
+07:41:02.330568 [info ]: Started loading project
+07:41:02.330781 [info ]: Loading profiles.yml
+07:41:02.332747 [info ]: Finished loading project [  0.00s]
+07:41:02.355521 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [25ms]
+07:41:02.355585 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:41:05.340496Z | ce2be1a5-47e7-497a-aed3-4af25af0eea2 ====================
+07:41:05.340561 [info ]: Started loading project
+07:41:05.340811 [info ]: Loading profiles.yml
+07:41:05.343152 [info ]: Finished loading project [  0.00s]
+07:41:05.363998 [info ]: Cached model count updated: 0 models (estimate)
+07:41:05.364020 [info ]: Cached model count updated: 0 models (accurate)
+07:41:05.364035 [info ]: Started scheduling
+07:41:05.364058 [info ]: Finished scheduling [  0.00s]
+07:41:05.364073 [debug]: Compilation - 0 nodes selected: {}
+07:41:05.364096 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:41:05.365242 [info ]: Started building task graph
+07:41:05.365265 [info ]: Finished building task graph [  0.00s]
+07:41:05.369515 [info ]: Started scheduling
+07:41:05.369547 [info ]: Finished scheduling [  0.00s]
+07:41:05.369646 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [29ms]
+07:41:05.369711 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:41:45.240560Z | 1b2cc302-fe80-44f2-887e-ba8e0540a2d0 ====================
+07:41:45.240618 [info ]: Started loading project
+07:41:45.240874 [info ]: Loading profiles.yml
+07:41:45.242706 [info ]: Finished loading project [  0.00s]
+07:41:45.261216 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [20ms]
+07:41:45.261283 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:41:47.960506Z | da89c0d2-de9b-4bb2-affa-2cc713b0ba3d ====================
+07:41:47.960575 [info ]: Started loading project
+07:41:47.960783 [info ]: Loading profiles.yml
+07:41:47.962638 [info ]: Finished loading project [  0.00s]
+07:41:47.978747 [info ]: Cached model count updated: 0 models (estimate)
+07:41:47.978766 [info ]: Cached model count updated: 0 models (accurate)
+07:41:47.978780 [info ]: Started scheduling
+07:41:47.978806 [info ]: Finished scheduling [  0.00s]
+07:41:47.978818 [debug]: Compilation - 0 nodes selected: {}
+07:41:47.978836 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:41:47.979860 [info ]: Started building task graph
+07:41:47.979880 [info ]: Finished building task graph [  0.00s]
+07:41:47.983895 [info ]: Started scheduling
+07:41:47.983921 [info ]: Finished scheduling [  0.00s]
+07:41:47.983987 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [23ms]
+07:41:47.984042 [info ]: Cached model count updated: 0 models (accurate)
+07:42:35.439693 [debug]: Ignoring unsupported LSP notification
+07:42:57.190552 [info ]: Loading profiles.yml
+07:43:01.109687 [debug]: Ignoring unsupported LSP notification
+07:43:21.999687 [debug]: Ignoring unsupported LSP notification
+07:43:21.999719 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T07:43:35.030656Z | 379ccaa0-46ff-4905-a60a-0ed053bb3840 ====================
+07:43:35.030714 [info ]: Started loading project
+07:43:35.030926 [info ]: Loading profiles.yml
+07:43:35.033039 [info ]: Finished loading project [  0.00s]
+07:43:35.051008 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [20ms]
+07:43:35.051068 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:43:38.071382Z | 65ab6c0c-8c45-4365-86c8-0a29a9e1fab2 ====================
+07:43:38.071461 [info ]: Started loading project
+07:43:38.071684 [info ]: Loading profiles.yml
+07:43:38.073674 [info ]: Finished loading project [  0.00s]
+07:43:38.090198 [info ]: Cached model count updated: 0 models (estimate)
+07:43:38.090221 [info ]: Cached model count updated: 0 models (accurate)
+07:43:38.090236 [info ]: Started scheduling
+07:43:38.090261 [info ]: Finished scheduling [  0.00s]
+07:43:38.090274 [debug]: Compilation - 0 nodes selected: {}
+07:43:38.090292 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:43:38.091300 [info ]: Started building task graph
+07:43:38.091321 [info ]: Finished building task graph [  0.00s]
+07:43:38.095603 [info ]: Started scheduling
+07:43:38.095629 [info ]: Finished scheduling [  0.00s]
+07:43:38.095719 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [24ms]
+07:43:38.095775 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:43:49.010510Z | 26ccfea4-4789-4567-9c94-4938350f5506 ====================
+07:43:49.010568 [info ]: Started loading project
+07:43:49.010769 [info ]: Loading profiles.yml
+07:43:49.012586 [info ]: Finished loading project [  0.00s]
+07:43:49.030315 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [19ms]
+07:43:49.030378 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:43:51.760537Z | 55f384ba-46d9-4eea-b023-035fc724fe79 ====================
+07:43:51.760600 [info ]: Started loading project
+07:43:51.760807 [info ]: Loading profiles.yml
+07:43:51.762714 [info ]: Finished loading project [  0.00s]
+07:43:51.778332 [info ]: Cached model count updated: 0 models (estimate)
+07:43:51.778352 [info ]: Cached model count updated: 0 models (accurate)
+07:43:51.778367 [info ]: Started scheduling
+07:43:51.778392 [info ]: Finished scheduling [  0.00s]
+07:43:51.778405 [debug]: Compilation - 0 nodes selected: {}
+07:43:51.778428 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:43:51.779508 [info ]: Started building task graph
+07:43:51.779530 [info ]: Finished building task graph [  0.00s]
+07:43:51.783648 [info ]: Started scheduling
+07:43:51.783677 [info ]: Finished scheduling [  0.00s]
+07:43:51.783764 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [23ms]
+07:43:51.783817 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:43:58.690611Z | fd80a7c4-4041-4fb1-9284-ae375faf57af ====================
+07:43:58.690667 [info ]: Started loading project
+07:43:58.690886 [info ]: Loading profiles.yml
+07:43:58.693136 [info ]: Finished loading project [  0.00s]
+07:43:58.710923 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'default' [20ms]
+07:43:58.711000 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:44:01.740558Z | dadc3155-a4fb-499b-a41c-83428747986b ====================
+07:44:01.740612 [info ]: Started loading project
+07:44:01.740811 [info ]: Loading profiles.yml
+07:44:01.742673 [info ]: Finished loading project [  0.00s]
+07:44:01.758306 [info ]: Cached model count updated: 0 models (estimate)
+07:44:01.758327 [info ]: Cached model count updated: 0 models (accurate)
+07:44:01.758341 [info ]: Started scheduling
+07:44:01.758367 [info ]: Finished scheduling [  0.00s]
+07:44:01.758379 [debug]: Compilation - 0 nodes selected: {}
+07:44:01.758403 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:44:01.759546 [info ]: Started building task graph
+07:44:01.759567 [info ]: Finished building task graph [  0.00s]
+07:44:01.763703 [info ]: Started scheduling
+07:44:01.763730 [info ]: Finished scheduling [  0.00s]
+07:44:01.763886 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [23ms]
+07:44:01.763942 [info ]: Cached model count updated: 0 models (accurate)
+07:45:41.419829 [debug]: Ignoring unsupported LSP notification
+==================== 2026-09-19T07:54:43.756458Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:54:43.756593Z | 00b73bce-e5e3-456d-aa2a-500422786570 ====================
+07:54:43.756615 [info ]: Starting dbt LSP server
+07:54:43.756639 [info ]: Connecting to LSP client on port 56969
+07:54:43.756896 [info ]: Successfully connected to LSP client
+07:54:43.756922 [info ]: Creating LSP service...
+07:54:43.758125 [info ]: Creating LSP server...
+07:54:43.758141 [info ]: Starting LSP server...
+07:54:44.620975 [info ]: Loading profiles.yml
+==================== 2026-09-19T07:54:46.896080Z | 00000000-0000-0000-0000-000000000000 ====================
+==================== 2026-09-19T07:54:46.896205Z | 0c588ea7-adf4-4c6f-a240-aaaf51f58206 ====================
+07:54:46.896226 [info ]: Starting dbt LSP server
+07:54:46.896245 [info ]: Connecting to LSP client on port 57771
+07:54:46.896469 [info ]: Successfully connected to LSP client
+07:54:46.896487 [info ]: Creating LSP service...
+07:54:46.897346 [info ]: Creating LSP server...
+07:54:46.897357 [info ]: Starting LSP server...
+07:54:47.651005 [info ]: Loading profiles.yml
+==================== 2026-09-19T07:54:48.330502Z | 8bae5eef-7cf1-46ba-a1a9-54e59edaffa1 ====================
+07:54:48.330568 [info ]: Started loading project
+07:54:48.330846 [info ]: Loading profiles.yml
+07:54:48.337126 [debug]:    Started loading packages
+07:54:48.337701 [debug]:     Loaded [  0.00s] packages
+07:54:48.338322 [info ]: Finished loading project [  0.01s]
+07:54:48.338605 [info ]: Started parsing
+07:54:48.457818 [warn ]: [UnusedResourceConfigPath (dbt1097)]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.healthcare_outcomes.example
+07:54:48.458587 [info ]: Finished parsing [  0.12s]
+07:54:48.458753 [info ]: Cached model count updated: 0 models (estimate)
+07:54:48.458764 [info ]: Cached model count updated: 0 models (accurate)
+07:54:48.458805 [info ]: Started scheduling
+07:54:48.458852 [info ]: Finished scheduling [  0.00s]
+07:54:48.458863 [debug]: Compilation - 0 nodes selected: {}
+07:54:48.458886 [warn ]: [NoNodesForSelectionCriteria (dbt1092)]: The selection criterion '' does not match any enabled nodes
+07:54:48.458898 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:54:48.458912 [info ]: Started scheduling
+07:54:48.458919 [info ]: Finished scheduling [  0.00s]
+07:54:48.460272 [info ]: Started building task graph
+07:54:48.460300 [info ]: Finished building task graph [  0.00s]
+07:54:48.465429 [info ]: Started scheduling
+07:54:48.465460 [info ]: Finished scheduling [  0.00s]
+07:54:48.465552 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 3 warnings for target 'default' [135ms]
+07:54:48.465627 [info ]: Cached model count updated: 0 models (accurate)
+==================== 2026-09-19T07:54:52.510558Z | 5532071a-6807-4e2c-9a8b-440ca2e2e543 ====================
+07:54:52.510632 [info ]: Started loading project
+07:54:52.510875 [info ]: Loading profiles.yml
+07:54:52.513255 [info ]: Finished loading project [  0.00s]
+07:54:52.534169 [info ]: Cached model count updated: 0 models (estimate)
+07:54:52.534192 [info ]: Cached model count updated: 0 models (accurate)
+07:54:52.534206 [info ]: Started scheduling
+07:54:52.534229 [info ]: Finished scheduling [  0.00s]
+07:54:52.534243 [debug]: Compilation - 0 nodes selected: {}
+07:54:52.534265 [warn ]: [NoNodesSelected (dbt1601)]: Nothing to do. Try checking your model configs and model specification args
+07:54:52.535622 [info ]: Started building task graph
+07:54:52.535643 [info ]: Finished building task graph [  0.00s]
+07:54:52.539864 [info ]: Started scheduling
+07:54:52.539893 [info ]: Finished scheduling [  0.00s]
+07:54:52.540013 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' with 1 warning for target 'default' [29ms]
+07:54:52.540107 [info ]: Cached model count updated: 0 models (accurate)
