@@ -18,53 +18,77 @@ models:
         constraints:
           - type: not_null
         data_tests: [unique]
+
       - name: patient_business_key
         data_type: varchar
         constraints:
           - type: not_null
         data_tests: [unique]
+
       - name: first_name
         data_type: varchar
+
       - name: last_name
         data_type: varchar
+
       - name: mrn
         data_type: varchar
+
       - name: date_of_birth
         data_type: date
+
       - name: phone_number
         data_type: varchar
+
       - name: email
         data_type: varchar
+
       - name: address_line1
         data_type: varchar
+
       - name: address_postal_code
         data_type: varchar
+
       - name: age_years
         data_type: number
+
       - name: age_band
         data_type: varchar
         data_tests:
-          - accepted_values: { values: ['pediatric','adult','senior'] }
+          - accepted_values:
+              arguments:
+                values: ['pediatric', 'adult', 'senior']
+
       - name: gender
         data_type: varchar
+
       - name: race
         data_type: varchar
+
       - name: ethnicity
         data_type: varchar
+
       - name: marital_status
         data_type: varchar
+
       - name: address_state
         data_type: varchar
+
       - name: insurance_plan
         data_type: varchar
+
       - name: primary_language
         data_type: varchar
+
       - name: is_deceased
         data_type: boolean
+
       - name: deceased_date
         data_type: date
+
       - name: created_at
         data_type: timestamp_ntz
+
       - name: updated_at
         data_type: timestamp_ntz
 
@@ -72,25 +96,38 @@ models:
     columns:
       - name: encounter_id
         data_tests: [not_null, unique]
+
       - name: patient_business_key
         data_tests:
           - not_null
-          - relationships: { to: ref('dim_patient'), field: patient_business_key }
+          - relationships:
+              arguments:
+                to: ref('dim_patient')
+                field: patient_business_key
+
       - name: encounter_class
         data_tests:
-          - accepted_values: { values: ['outpatient','ambulatory','emergency','inpatient'] }
+          - accepted_values:
+              arguments:
+                values: ['outpatient', 'ambulatory', 'emergency', 'inpatient']
+
       - name: length_of_stay_hours
         data_tests:
-          - dbt_utils.expression_is_true: { expression: ">= 0" }
+          - dbt_utils.expression_is_true:
+              arguments:
+                expression: ">= 0"
 
   # ---- clinical ----
   - name: mart_readmission_risk
     columns:
       - name: encounter_id
         data_tests: [not_null, unique]
+
       - name: risk_band
         data_tests:
-          - accepted_values: { values: ['low','medium','high'] }
+          - accepted_values:
+              arguments:
+                values: ['low', 'medium', 'high']
 
   - name: mart_length_of_stay_analytics
 
