@@ -21,3 +21,4 @@ synthetic_data/*.csv
 
 # Experiment generated results
 experiment/results/
+dbt_internal_packages/
