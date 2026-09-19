@@ -1,0 +1,7 @@
+version: 2
+
+seeds:
+  - name: icd10_chapters
+    columns:
+      - name: icd10_chapter
+        data_tests: [not_null, unique]

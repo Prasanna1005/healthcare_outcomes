@@ -1,0 +1,23 @@
+# Environment / credentials
+.env
+.venv/
+profiles.yml
+
+# dbt generated files
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated synthetic data
+synthetic_data/*.csv
+
+# Experiment generated results
+experiment/results/

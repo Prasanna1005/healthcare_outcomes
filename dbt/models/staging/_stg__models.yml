@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: stg_patients
+    columns:
+      - name: patient_id
+        data_tests: [not_null, unique]
+      - name: gender
+        data_tests:
+          - accepted_values: { values: ['male','female','other'] }
+  - name: stg_encounters
+    columns:
+      - name: encounter_id
+        data_tests: [not_null, unique]
+      - name: patient_id
+        data_tests:
+          - not_null
+          - relationships: { to: ref('stg_patients'), field: patient_id }
+      - name: encounter_class
+        data_tests:
+          - accepted_values: { values: ['outpatient','ambulatory','emergency','inpatient'] }
+  - name: stg_observations
+    columns:
+      - name: observation_id
+        data_tests: [not_null, unique]
+      - name: abnormal_flag
+        data_tests:
+          - accepted_values: { values: ['normal','high','low','critical'] }
+  - name: stg_conditions
+    columns:
+      - name: condition_id
+        data_tests: [not_null, unique]
+      - name: clinical_status
+        data_tests:
+          - accepted_values: { values: ['active','resolved','inactive'] }
+  - name: stg_medications
+    columns:
+      - name: medication_request_id
+        data_tests: [not_null, unique]
+  - name: stg_procedures
+    columns:
+      - name: procedure_id
+        data_tests: [not_null, unique]

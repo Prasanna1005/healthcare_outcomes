@@ -1,0 +1,67 @@
+name: 'healthcare_outcomes'
+version: '1.0.0'
+config-version: 2
+
+profile: 'healthcare_outcomes'
+
+model-paths:    ["models"]
+seed-paths:     ["seeds"]
+test-paths:     ["tests"]
+macro-paths:    ["macros"]
+snapshot-paths: ["snapshots"]
+analysis-paths: ["analyses"]
+
+target-path: "target"
+clean-targets: ["target", "dbt_packages", "logs"]
+
+vars:
+  analysis_as_of_date: '2025-12-31'
+  readmission_window_days: 30
+
+models:
+  healthcare_outcomes:
+    +persist_docs:
+      relation: true
+      columns: true
+
+    staging:
+      +schema: staging
+      +materialized: view
+      +tags: ["staging", "silver"]
+
+    intermediate:
+      +schema: intermediate
+      +materialized: ephemeral
+      +tags: ["intermediate", "silver"]
+
+    marts:
+      +schema: marts
+      +tags: ["marts", "gold"]
+      core:
+        +materialized: table
+      clinical:
+        +materialized: table
+        +tags: ["clinical"]
+      governance:
+        +materialized: table
+        +tags: ["governance"]
+
+snapshots:
+  healthcare_outcomes:
+    +target_schema: snapshots
+
+seeds:
+  healthcare_outcomes:
+    +schema: seeds
+    +quote_columns: false
+
+tests:
+  +severity: error
+  +store_failures: true
+  +schema: dbt_test_failures
+
+on-run-start:
+  - "{{ create_run_history_table_if_not_exists() }}"
+on-run-end:
+  - "{{ insert_run_history_row(results) }}"
+  - "{{ apply_masking_policies_to_dim_patient() }}"
